@@ -3,39 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Signal Drift</title>
+    <title>信号漂移</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="game-shell" aria-label="Signal Drift game">
+    <main class="game-shell" aria-label="信号漂移游戏">
       <section class="playfield">
         <canvas id="game" width="960" height="540" aria-label="Game canvas"></canvas>
         <div class="hud" aria-hidden="true">
           <div class="stat">
-            <span>Score</span>
+            <span>分数</span>
             <strong id="score">0</strong>
           </div>
           <div class="stat">
-            <span>Combo</span>
+            <span>连击</span>
             <strong id="combo">x1</strong>
           </div>
           <div class="stat">
-            <span>Hull</span>
+            <span>护盾</span>
             <strong id="lives">3</strong>
           </div>
         </div>
         <div class="overlay" id="overlay">
-          <h1>Signal Drift</h1>
-          <p id="overlayText">Catch signal shards. Slip past the red gates.</p>
-          <button id="startButton" type="button">Start</button>
+          <h1>信号漂移</h1>
+          <p id="overlayText">收集信号碎片，避开红色闸门。</p>
+          <button id="startButton" type="button">开始</button>
         </div>
         <div class="touch-pad" id="touchPad" aria-hidden="true">
           <div class="stick" id="stick"></div>
         </div>
       </section>
       <nav class="controls" aria-label="Game controls">
-        <button id="pauseButton" type="button" title="Pause or resume">Pause</button>
-        <button id="restartButton" type="button" title="Restart">Restart</button>
+        <button id="pauseButton" type="button" title="暂停或继续">暂停</button>
+        <button id="restartButton" type="button" title="重新开始">重开</button>
       </nav>
     </main>
     <script src="game.js"></script>

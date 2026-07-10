@@ -70,15 +70,15 @@ function setOverlay(title, message, buttonLabel) {
 function togglePause() {
   if (state.mode === "playing") {
     state.mode = "paused";
-    setOverlay("Paused", "The drift is holding steady.", "Resume");
-    pauseButton.textContent = "Resume";
+    setOverlay("已暂停", "漂移轨迹保持稳定。", "继续");
+    pauseButton.textContent = "继续";
     return;
   }
 
   if (state.mode === "paused") {
     state.mode = "playing";
     overlay.classList.add("hidden");
-    pauseButton.textContent = "Pause";
+    pauseButton.textContent = "暂停";
     lastTime = performance.now();
     rafId = requestAnimationFrame(loop);
   }
@@ -231,8 +231,8 @@ function collectAndCollide() {
 
       if (state.lives <= 0) {
         state.mode = "over";
-        setOverlay("Game Over", `Final score ${state.score}`, "Play Again");
-        pauseButton.textContent = "Pause";
+        setOverlay("游戏结束", `最终得分 ${state.score}`, "再玩一次");
+        pauseButton.textContent = "暂停";
       }
       break;
     }
