@@ -1,0 +1,233 @@
+:root {
+  color-scheme: dark;
+  --ink: #f7fbff;
+  --muted: #a9b9c7;
+  --panel: rgba(10, 20, 28, 0.72);
+  --line: rgba(255, 255, 255, 0.16);
+  --cyan: #3de8ff;
+  --lime: #b8ff63;
+  --red: #ff4f69;
+  --gold: #ffd166;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 18% 16%, rgba(61, 232, 255, 0.18), transparent 30%),
+    radial-gradient(circle at 78% 72%, rgba(184, 255, 99, 0.12), transparent 26%),
+    linear-gradient(135deg, #091118 0%, #111b23 48%, #18151d 100%);
+  color: var(--ink);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+button {
+  min-width: 96px;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  transition:
+    transform 140ms ease,
+    border-color 140ms ease,
+    background 140ms ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(61, 232, 255, 0.62);
+  background: rgba(61, 232, 255, 0.14);
+}
+
+.game-shell {
+  display: grid;
+  gap: 14px;
+  width: min(100vw - 28px, 1120px);
+}
+
+.playfield {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #071018;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hud {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  pointer-events: none;
+}
+
+.stat {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 9px 12px;
+  backdrop-filter: blur(12px);
+}
+
+.stat span,
+.stat strong {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.stat span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.stat strong {
+  margin-top: 3px;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 18px;
+  padding: 24px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(5, 12, 18, 0.34), rgba(5, 12, 18, 0.72));
+}
+
+.overlay.hidden {
+  display: none;
+}
+
+.overlay h1 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(42px, 8vw, 92px);
+  line-height: 0.92;
+  letter-spacing: 0;
+  text-shadow: 0 0 28px rgba(61, 232, 255, 0.46);
+}
+
+.overlay p {
+  max-width: 38rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(16px, 2vw, 20px);
+  line-height: 1.45;
+}
+
+.overlay button {
+  min-width: 132px;
+  border-color: rgba(184, 255, 99, 0.58);
+  background: linear-gradient(180deg, rgba(184, 255, 99, 0.28), rgba(61, 232, 255, 0.16));
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.touch-pad {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  display: none;
+  width: 104px;
+  height: 104px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  touch-action: none;
+}
+
+.stick {
+  position: absolute;
+  left: 34px;
+  top: 34px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--cyan);
+  box-shadow: 0 0 22px rgba(61, 232, 255, 0.5);
+}
+
+@media (pointer: coarse) {
+  .touch-pad {
+    display: block;
+  }
+}
+
+@media (max-width: 620px) {
+  body {
+    place-items: start center;
+    padding-top: 10px;
+  }
+
+  .game-shell {
+    width: min(100vw - 16px, 1120px);
+    gap: 10px;
+  }
+
+  .hud {
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    gap: 6px;
+  }
+
+  .stat {
+    padding: 7px 8px;
+  }
+
+  .stat span {
+    font-size: 10px;
+  }
+
+  .stat strong {
+    font-size: 17px;
+  }
+
+  button {
+    min-width: 90px;
+  }
+}
