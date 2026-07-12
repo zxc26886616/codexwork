@@ -1,0 +1,37 @@
+{
+  "target": {
+    "unityProjectPath": "D:\\code\\cad_client\\cadclient3.0",
+    "clientName": "cadclient3.0"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 17830
+  },
+  "execution": {
+    "adapter": "mock",
+    "environment": "production",
+    "productionGuard": true,
+    "botToken": "",
+    "rateLimitSeconds": 10,
+    "dryRun": true,
+    "officialApi": {
+      "baseUrl": "",
+      "loginPath": "/bot/login",
+      "enterGamePath": "/bot/enter-game",
+      "timeoutSeconds": 15
+    }
+  },
+  "autoLogin": {
+    "enabled": true,
+    "mode": "lastRole",
+    "account": "",
+    "password": "",
+    "serverId": "",
+    "roleId": "",
+    "roleIndex": 0,
+    "enterGame": true,
+    "delaySeconds": 2,
+    "retryTimes": 3,
+    "retryIntervalSeconds": 5
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cad-auto-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CAD Unity 项目的本地自动挂机控制台，第一版实现自动登录参数面板和本地服务器。",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js && node --check adapters/mockOfficialAdapter.js && node --check adapters/officialAdapter.js"
+  }
+}

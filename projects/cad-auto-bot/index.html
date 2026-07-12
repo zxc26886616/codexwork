@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CAD 自动挂机控制台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <h1>CAD 自动挂机控制台</h1>
+          <p>本地服务器连接正式服授权适配器，当前阶段先实现自动登录参数与触发。</p>
+        </div>
+        <div class="server-pill" id="serverState">连接中</div>
+      </header>
+
+      <section class="layout">
+        <form class="panel" id="configForm">
+          <h2>自动登录参数</h2>
+          <label>
+            <span>目标 Unity 工程</span>
+            <input name="unityProjectPath" autocomplete="off" />
+          </label>
+          <label>
+            <span>客户端名称</span>
+            <input name="clientName" autocomplete="off" />
+          </label>
+          <div class="grid-three">
+            <label>
+              <span>执行适配器</span>
+              <select name="adapter">
+                <option value="mock">Mock 适配器</option>
+                <option value="official">正式服适配器</option>
+              </select>
+            </label>
+            <label>
+              <span>运行环境</span>
+              <select name="environment">
+                <option value="production">正式服</option>
+                <option value="staging">预发服</option>
+                <option value="dev">开发服</option>
+              </select>
+            </label>
+            <label>
+              <span>限流秒数</span>
+              <input name="rateLimitSeconds" type="number" min="1" step="1" />
+            </label>
+          </div>
+          <label>
+            <span>Bot Token</span>
+            <input name="botToken" type="password" autocomplete="off" />
+          </label>
+          <label>
+            <span>正式服 API Base URL</span>
+            <input name="officialBaseUrl" autocomplete="off" placeholder="https://example.com" />
+          </label>
+          <div class="grid-three">
+            <label>
+              <span>登录接口路径</span>
+              <input name="officialLoginPath" autocomplete="off" />
+            </label>
+            <label>
+              <span>进服接口路径</span>
+              <input name="officialEnterGamePath" autocomplete="off" />
+            </label>
+            <label>
+              <span>请求超时秒</span>
+              <input name="officialTimeoutSeconds" type="number" min="1" step="1" />
+            </label>
+          </div>
+          <div class="grid-two">
+            <label class="switch-row">
+              <span>正式服保护</span>
+              <input name="productionGuard" type="checkbox" />
+            </label>
+            <label class="switch-row">
+              <span>dryRun 只演练</span>
+              <input name="dryRun" type="checkbox" />
+            </label>
+          </div>
+          <label class="switch-row">
+            <span>启用自动登录</span>
+            <input name="enabled" type="checkbox" />
+          </label>
+          <label>
+            <span>登录模式</span>
+            <select name="mode">
+              <option value="lastRole">最近角色</option>
+              <option value="roleId">指定角色 ID</option>
+              <option value="roleIndex">指定角色序号</option>
+              <option value="accountOnly">仅账号登录</option>
+            </select>
+          </label>
+          <div class="grid-two">
+            <label>
+              <span>账号</span>
+              <input name="account" autocomplete="off" />
+            </label>
+            <label>
+              <span>密码/令牌</span>
+              <input name="password" type="password" autocomplete="off" />
+            </label>
+          </div>
+          <div class="grid-three">
+            <label>
+              <span>服务器 ID</span>
+              <input name="serverId" autocomplete="off" />
+            </label>
+            <label>
+              <span>角色 ID</span>
+              <input name="roleId" autocomplete="off" />
+            </label>
+            <label>
+              <span>角色序号</span>
+              <input name="roleIndex" type="number" min="0" step="1" />
+            </label>
+          </div>
+          <div class="grid-three">
+            <label>
+              <span>登录延迟秒</span>
+              <input name="delaySeconds" type="number" min="0" step="0.5" />
+            </label>
+            <label>
+              <span>重试次数</span>
+              <input name="retryTimes" type="number" min="0" step="1" />
+            </label>
+            <label>
+              <span>重试间隔秒</span>
+              <input name="retryIntervalSeconds" type="number" min="1" step="1" />
+            </label>
+          </div>
+          <label class="switch-row">
+            <span>选角后进入游戏</span>
+            <input name="enterGame" type="checkbox" />
+          </label>
+          <div class="actions">
+            <button type="submit">保存参数</button>
+            <button class="primary" id="loginButton" type="button">执行自动登录</button>
+          </div>
+        </form>
+
+        <aside class="panel status-panel">
+          <h2>运行状态</h2>
+          <dl class="status-list">
+            <div>
+              <dt>本地服务器</dt>
+              <dd id="serverUrl">-</dd>
+            </div>
+            <div>
+              <dt>最近执行</dt>
+              <dd id="lastExecution">无</dd>
+            </div>
+            <div>
+              <dt>最近命令</dt>
+              <dd id="lastCommand">无</dd>
+            </div>
+            <div>
+              <dt>执行说明</dt>
+              <dd id="executionMessage">无</dd>
+            </div>
+          </dl>
+          <h3>事件日志</h3>
+          <ol class="log-list" id="logList"></ol>
+        </aside>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
