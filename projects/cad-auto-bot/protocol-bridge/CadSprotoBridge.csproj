@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);CS8981;CS8714;CS8625;CS8618;CS8600;CS8601;CS8602;CS8603;CS8604</NoWarn>
+    <CadClientRoot Condition="'$(CAD_CLIENT_ROOT)' != ''">$(CAD_CLIENT_ROOT)</CadClientRoot>
+    <CadClientRoot Condition="'$(CadClientRoot)' == ''">D:\code\cad-client-mas\cadclient3.0_unity2021\cadclient3.0_unity2021</CadClientRoot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(CadClientRoot)\Assets\GameCore\Core\NetModule\Sproto\*.cs"
+             Link="ClientSprotoRuntime\%(Filename)%(Extension)" />
+    <Compile Include="$(CadClientRoot)\Assets\GamePlay\Hotfix\Protocol\Sproto.cs"
+             Link="ClientProtocol\Sproto.cs" />
+  </ItemGroup>
+</Project>

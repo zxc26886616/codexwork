@@ -11,7 +11,7 @@
       <header class="topbar">
         <div>
           <h1>CAD 自动挂机控制台</h1>
-          <p>本地服务器连接正式服授权适配器，当前阶段先实现自动登录参数与触发。</p>
+          <p>使用安卓草花账号登录，取得渠道凭证后连接游戏网关。</p>
         </div>
         <div class="server-pill" id="serverState">连接中</div>
       </header>
@@ -19,10 +19,42 @@
       <section class="layout">
         <form class="panel" id="configForm">
           <h2>自动登录参数</h2>
+          <section class="channel-login">
+            <h3>安卓草花账号登录</h3>
+            <p class="notice" id="caohuaState">正在检查渠道凭证</p>
+            <div class="grid-two">
+              <label>
+                <span>草花账号</span>
+                <input id="caohuaUsername" autocomplete="username" />
+              </label>
+              <label>
+                <span>草花密码（不保存）</span>
+                <input id="caohuaPassword" type="password" autocomplete="current-password" />
+              </label>
+            </div>
+            <details>
+              <summary>联调：直接使用 SDK 已签发凭证</summary>
+              <div class="grid-two">
+                <label>
+                  <span>草花 userId</span>
+                  <input id="caohuaUserId" autocomplete="off" />
+                </label>
+                <label>
+                  <span>草花 token（不保存）</span>
+                  <input id="caohuaToken" type="password" autocomplete="off" />
+                </label>
+              </div>
+              <label>
+                <span>本次登录 sdkParam（连接安卓登录服时必填，不保存）</span>
+                <input id="caohuaSdkParam" type="password" autocomplete="off" />
+              </label>
+            </details>
+          </section>
           <label>
-            <span>目标 Unity 工程</span>
+            <span>MAS 客户端源码路径（只读）</span>
             <input name="unityProjectPath" autocomplete="off" />
           </label>
+          <p class="notice">该路径只用于读取 Channel.json、Task.json 和协议定义；控制台不会向 MAS 客户端目录写入文件、构建客户端或注入代码。</p>
           <label>
             <span>客户端名称</span>
             <input name="clientName" autocomplete="off" />
@@ -48,26 +80,110 @@
               <input name="rateLimitSeconds" type="number" min="1" step="1" />
             </label>
           </div>
+          <p class="notice">账号密码调用你们获授权的草花登录代理；密码、渠道 token 和 Bot Token 均不写入配置或日志。</p>
           <label>
-            <span>Bot Token</span>
-            <input name="botToken" type="password" autocomplete="off" />
+            <span>Android 渠道配置（来自客户端 Channel.json）</span>
+            <select name="androidChannelConfigId"></select>
           </label>
+          <p class="notice">选择渠道后，登录代理可以只返回 extensionJson；本地会按 Android 客户端格式生成 sdkParam。无法确定安装包渠道时保持“由登录代理返回”。</p>
           <label>
-            <span>正式服 API Base URL</span>
+            <span>草花登录代理 Base URL</span>
             <input name="officialBaseUrl" autocomplete="off" placeholder="https://example.com" />
           </label>
-          <div class="grid-three">
+          <div class="grid-two">
             <label>
-              <span>登录接口路径</span>
+              <span>账号登录接口路径</span>
               <input name="officialLoginPath" autocomplete="off" />
-            </label>
-            <label>
-              <span>进服接口路径</span>
-              <input name="officialEnterGamePath" autocomplete="off" />
             </label>
             <label>
               <span>请求超时秒</span>
               <input name="officialTimeoutSeconds" type="number" min="1" step="1" />
+            </label>
+          </div>
+          <h3>游戏登录服</h3>
+          <label class="switch-row">
+            <span>草花登录后连接游戏登录服</span>
+            <input name="gatewayEnabled" type="checkbox" />
+          </label>
+          <div class="grid-two directory-row">
+            <label>
+              <span>客户端区服目录环境</span>
+              <select id="serverDirectoryEnvironment">
+                <option value="release">正式服（release）</option>
+                <option value="develop">开发服（develop）</option>
+              </select>
+            </label>
+            <label>
+              <span>官方区服列表</span>
+              <select id="serverDirectorySelect">
+                <option value="">手工填写下方参数</option>
+              </select>
+            </label>
+          </div>
+          <div class="actions directory-actions">
+            <button id="loadServerDirectoryButton" type="button">加载区服列表</button>
+            <button id="loadAccountServersButton" type="button">查询账号角色区服</button>
+            <span class="notice" id="serverDirectoryState">未加载，不会自动选择区服</span>
+          </div>
+          <label>
+            <span>区服 serverUrl</span>
+            <input name="gatewayServerUrl" autocomplete="off" placeholder="wss://example.com/ws" />
+          </label>
+          <div class="grid-three">
+            <label>
+              <span>区服 serverIP</span>
+              <input name="gatewayServerIp" autocomplete="off" />
+            </label>
+            <label>
+              <span>区服 port</span>
+              <input name="gatewayPort" type="number" min="1" max="65535" step="1" />
+            </label>
+            <label>
+              <span>区服 serverNode</span>
+              <input name="gatewayServerNode" autocomplete="off" />
+            </label>
+          </div>
+          <label>
+            <span>登录服握手超时秒</span>
+            <input name="gatewayTimeoutSeconds" type="number" min="1" step="1" />
+          </label>
+          <label class="switch-row">
+            <span>角色网关断线后自动重连</span>
+            <input name="gatewayAutoReconnect" type="checkbox" />
+          </label>
+          <div class="grid-two">
+            <label>
+              <span>自动重连次数</span>
+              <input name="gatewayReconnectAttempts" type="number" min="1" max="20" step="1" />
+            </label>
+            <label>
+              <span>重连基础间隔秒</span>
+              <input name="gatewayReconnectIntervalSeconds" type="number" min="1" max="60" step="1" />
+            </label>
+          </div>
+          <h3>角色协议参数</h3>
+          <div class="grid-three">
+            <label>
+              <span>代码版本</span>
+              <input name="codeVersion" autocomplete="off" />
+            </label>
+            <label>
+              <span>客户端显示版本</span>
+              <input name="clientVersion" autocomplete="off" />
+            </label>
+            <label>
+              <span>设备型号</span>
+              <input name="deviceModel" autocomplete="off" />
+            </label>
+          </div>
+          <div class="grid-two">
+            <label>
+              <span>语言编号</span>
+              <input name="gameLanguage" type="number" min="0" step="1" />
+            </label>
+            <label>
+              <span>归属渠道 ID</span>
+              <input name="belongId" autocomplete="off" />
             </label>
           </div>
           <div class="grid-two">
@@ -93,16 +209,6 @@
               <option value="accountOnly">仅账号登录</option>
             </select>
           </label>
-          <div class="grid-two">
-            <label>
-              <span>账号</span>
-              <input name="account" autocomplete="off" />
-            </label>
-            <label>
-              <span>密码/令牌</span>
-              <input name="password" type="password" autocomplete="off" />
-            </label>
-          </div>
           <div class="grid-three">
             <label>
               <span>服务器 ID</span>
@@ -135,9 +241,66 @@
             <span>选角后进入游戏</span>
             <input name="enterGame" type="checkbox" />
           </label>
+          <h3>挂机任务</h3>
+          <label class="switch-row">
+            <span>角色登录后自动启动挂机</span>
+            <input name="automationEnabled" type="checkbox" />
+          </label>
+          <label>
+            <span>执行间隔（分钟，最少 1 分钟）</span>
+            <input name="automationIntervalMinutes" type="number" min="1" step="1" />
+          </label>
+          <div class="grid-three">
+            <label class="switch-row">
+              <span>领取角色邮件</span>
+              <input name="claimCharacterMail" type="checkbox" />
+            </label>
+            <label class="switch-row">
+              <span>领取账号邮件</span>
+              <input name="claimAccountMail" type="checkbox" />
+            </label>
+            <label class="switch-row">
+              <span>每日普通签到</span>
+              <input name="dailySign" type="checkbox" />
+            </label>
+            <label class="switch-row">
+              <span>定时领取午间/晚间体力</span>
+              <input name="claimTimedEnergy" type="checkbox" />
+            </label>
+            <label class="switch-row">
+              <span>领取已完成日常任务</span>
+              <input name="claimDailyTasks" type="checkbox" />
+            </label>
+            <label class="switch-row">
+              <span>领取日常活跃宝箱</span>
+              <input name="claimDailyBoxes" type="checkbox" />
+            </label>
+            <label class="switch-row">
+              <span>指定副本扫荡</span>
+              <input name="wipeBattle" type="checkbox" />
+            </label>
+          </div>
+          <div class="grid-two">
+            <label>
+              <span>扫荡副本 Battle ID</span>
+              <input name="wipeBattleId" inputmode="numeric" placeholder="例如 100101" />
+            </label>
+            <label>
+              <span>单轮扫荡次数（1–10）</span>
+              <input name="wipeBattleTimes" type="number" min="1" max="10" step="1" />
+            </label>
+          </div>
+          <p class="notice">普通签到不会补签、不会消耗道具；定时体力仅在 12:00–14:00、19:00–21:00 调用免费领取协议，绝不调用广告补领；状态未就绪时会安全跳过。</p>
+          <div class="actions">
+            <button class="primary" id="automationStartButton" type="button">启动挂机</button>
+            <button id="automationRunButton" type="button">立即执行一次</button>
+            <button id="automationStopButton" type="button">停止挂机</button>
+          </div>
           <div class="actions">
             <button type="submit">保存参数</button>
             <button class="primary" id="loginButton" type="button">执行自动登录</button>
+            <button id="sessionConnectButton" type="button">连接所选区服</button>
+            <button id="sessionDisconnectButton" type="button">断开角色连接</button>
           </div>
         </form>
 
@@ -160,7 +323,13 @@
               <dt>执行说明</dt>
               <dd id="executionMessage">无</dd>
             </div>
+            <div>
+              <dt>挂机状态</dt>
+              <dd id="automationState">未启动</dd>
+            </div>
           </dl>
+          <h3>最近挂机结果</h3>
+          <ol class="log-list" id="automationResultList"></ol>
           <h3>事件日志</h3>
           <ol class="log-list" id="logList"></ol>
         </aside>

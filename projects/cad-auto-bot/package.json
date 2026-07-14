@@ -5,6 +5,8 @@
   "description": "CAD Unity 项目的本地自动挂机控制台，第一版实现自动登录参数面板和本地服务器。",
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check app.js && node --check adapters/mockOfficialAdapter.js && node --check adapters/officialAdapter.js"
+    "build:bridge": "dotnet build protocol-bridge/CadSprotoBridge.csproj -c Release -v:q",
+    "check": "node --check server.js && node --check app.js && node --check adapters/mockOfficialAdapter.js && node --check adapters/officialAdapter.js && node --check automation/cadTaskScheduler.js && node --check automation/cadGameStateStore.js && node --check automation/cadSessionLifecycle.js && node --check automation/cadExistingSessionConnector.js && node --check automation/cadSecretVault.js && node --check automation/cadReconnectLoop.js && node --check protocol/cadAndroidSdkParam.js && node --check protocol/cadAndroidRoleServers.js && node --check protocol/cadServerDirectory.js && node --check protocol/cadGatewayCrypto.js && node --check protocol/cadLoginGatewayClient.js && node --check protocol/cadGameGatewayClient.js && node --check protocol/cadGameProtocolSession.js && node --check protocol/cadRoleLoginFlow.js && node --check protocol/cadOnlineKeeper.js && node --check protocol/sprotoBridgeClient.js",
+    "test": "npm run build:bridge && node --test"
   }
 }

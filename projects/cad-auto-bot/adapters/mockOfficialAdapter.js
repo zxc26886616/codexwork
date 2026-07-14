@@ -2,30 +2,38 @@ function wait(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function loginAuto(config) {
+async function loginAuto(config, context = {}) {
   const login = config.autoLogin;
+  const credentials = context.credentials || {};
   await wait(250);
 
-  if (!login.account) {
+  if (!(credentials.username && credentials.password) && !(credentials.userId && credentials.channelToken)) {
     return {
       ok: false,
       status: "failed",
-      message: "缺少账号，无法执行自动登录",
+      message: "缺少草花登录凭证",
     };
   }
 
+  const userId = credentials.userId || `mock-${credentials.username}`;
   return {
     ok: true,
-    status: "loggedIn",
-    message: "Mock 正式服适配器已完成自动登录流程",
-    session: {
-      account: login.account,
-      serverId: login.serverId || "default",
-      roleId: login.roleId || null,
-      roleIndex: login.roleIndex,
-      loginMode: login.mode,
-      enteredGame: login.enterGame,
-      issuedAt: new Date().toISOString(),
+    status: "channelAuthenticated",
+    message: "Mock 草花登录成功，渠道凭证已保存在本机内存",
+    privateSession: {
+      userId,
+      channelToken: credentials.channelToken || "mock-channel-token",
+      sdkParam:
+        credentials.sdkParam ||
+        Buffer.from(
+          JSON.stringify({
+            appId: "mock-app",
+            channelId: "mock-channel",
+            channelApplyId: "mock-apply",
+            extensionJson: "",
+          }),
+        ).toString("base64"),
+      source: credentials.userId ? "issuedToken" : "accountPassword",
     },
   };
 }

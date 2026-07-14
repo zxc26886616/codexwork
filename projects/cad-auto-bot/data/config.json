@@ -1,7 +1,7 @@
 {
   "target": {
-    "unityProjectPath": "D:\\code\\cad_client\\cadclient3.0",
-    "clientName": "cadclient3.0"
+    "unityProjectPath": "D:\\code\\cad-client-mas\\cadclient3.0_unity2021\\cadclient3.0_unity2021",
+    "clientName": "CAD Client 3.0"
   },
   "server": {
     "host": "127.0.0.1",
@@ -11,21 +11,38 @@
     "adapter": "mock",
     "environment": "production",
     "productionGuard": true,
-    "botToken": "",
     "rateLimitSeconds": 10,
     "dryRun": true,
     "officialApi": {
       "baseUrl": "",
       "loginPath": "/bot/login",
-      "enterGamePath": "/bot/enter-game",
       "timeoutSeconds": 15
     }
+  },
+  "gateway": {
+    "enabled": false,
+    "serverUrl": "",
+    "serverIp": "",
+    "port": 10001,
+    "serverNode": "game1",
+    "timeoutSeconds": 15,
+    "autoReconnect": true,
+    "reconnectAttempts": 5,
+    "reconnectIntervalSeconds": 5
+  },
+  "gameplay": {
+    "codeVersion": "1.0.11",
+    "clientVersion": "v1.0.24",
+    "language": 0,
+    "deviceModel": "Android",
+    "belongId": "1002984"
+  },
+  "androidChannel": {
+    "configId": "0"
   },
   "autoLogin": {
     "enabled": true,
     "mode": "lastRole",
-    "account": "",
-    "password": "",
     "serverId": "",
     "roleId": "",
     "roleIndex": 0,
@@ -33,5 +50,22 @@
     "delaySeconds": 2,
     "retryTimes": 3,
     "retryIntervalSeconds": 5
+  },
+  "automation": {
+    "enabled": false,
+    "intervalSeconds": 3600,
+    "tasks": {
+      "claimCharacterMail": true,
+      "claimAccountMail": true,
+      "dailySign": false,
+      "claimTimedEnergy": false,
+      "claimDailyTasks": false,
+      "claimDailyBoxes": false,
+      "wipeBattle": false
+    },
+    "wipeBattle": {
+      "battleId": "",
+      "times": 1
+    }
   }
 }
