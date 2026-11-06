@@ -31,10 +31,16 @@ def record(store, batch, read):
          "换版须绑定前批、不同新 pin 和固定候选目录名")
     return row,digest(raw)
 
-def product(root, row, read):
+def product(root, row, read, *, review_only=False):
     folder=(root/"dist/candidates"/row["candidateId"]).resolve()
     need(folder.parent==(root/"dist/candidates").resolve(),"候选目录越界")
-    raw=read(folder/"candidate.json")
+    try:
+        raw=read(folder/"candidate.json")
+    except FileNotFoundError:
+        if not review_only or folder.exists():
+            raise
+        # 旧版程序清理后，历史票据仍须核对封存的清单。实际启动只认安装目录。
+        raw=read(root/"evidence/2026-11-05-hundred/批次监管/换版清单"/(row["pin"]+".json"))
     manifest=json.loads(raw)
     need(digest(raw)==row["pin"] and manifest["id"]==row["candidateId"],"固定包目录和签发 pin 不一致")
     return folder
@@ -140,7 +146,7 @@ def proof(root, campaign, store, new_batch, read):
         pin=row["pin"]
         need(pin not in seen_pins and pin!=OLD_PIN,"不可复用旧固定包")
         seen_pins.add(pin)
-        product(root,row,read)
+        product(root,row,read,review_only=True)
         old=store/row["previous"]
         folder=store.parent/"换版复核"/cursor
         saved=read(folder/"旧台账.json")

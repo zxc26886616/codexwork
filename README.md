@@ -14,4 +14,4 @@
 | --- | --- | --- |
 | 信号漂移 | [`projects/signal-drift/index.html`](./projects/signal-drift/index.html) | [`docs/projects/信号漂移.md`](./docs/projects/信号漂移.md) |
 | CAD 自动挂机控制台 | [`projects/cad-auto-bot/README.md`](./projects/cad-auto-bot/README.md) | [`docs/projects/CAD自动挂机控制台.md`](./docs/projects/CAD自动挂机控制台.md) |
-| 海盐折纸桌面助手 | [Windows 应用与运行说明](./projects/bga-seasaltpaper/README.md) | [海盐折纸桌面助手](./docs/projects/海盐折纸桌面助手.md) |
+| 海盐折纸桌面助手 | [启动 SeaSaltDesk.exe](./projects/bga-seasaltpaper/SeaSaltDesk.exe) · [运行说明](./projects/bga-seasaltpaper/README.md) | [海盐折纸桌面助手](./docs/projects/海盐折纸桌面助手.md) |

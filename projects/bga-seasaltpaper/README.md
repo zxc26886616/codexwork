@@ -1,5 +1,9 @@
 # 海盐折纸桌面助手
 
+**启动：在 Windows 上打开本项目文件夹，双击 [SeaSaltDesk.exe](./SeaSaltDesk.exe)。** 当前版是 `bf8907fa`。从 GitHub 下载时请下载整个仓库，再打开 `projects/bga-seasaltpaper`，让程序和同目录的 DLL、`runtimes` 文件夹放在一起。
+
+运行环境为 Windows x64、.NET 10 Windows Desktop Runtime 和 Microsoft Edge WebView2。打开主窗口后，可从「单人教程」开始；`SeatControl.exe` 是后台命令行入口。
+
 ## 当前交付（2026-11-06）
 
 Windows 桌面助手已实现普通 BGA 的「开始游戏 → 即时制」匹配、双人基础版席位核对、己方自动出牌、读取官方结算和按批次续排。教程、单桌、热座连局和战绩统计也可使用。达到喊停条件时，两个按钮都合法就选「再给一次机会」；它缺失或禁用时才选合法的「立即结束」。
@@ -11,9 +15,7 @@ Windows 桌面助手已实现普通 BGA 的「开始游戏 → 即时制」匹�
 | 真人结果 | 台账中有 3 张独立正常完赛桌，比分按己方在前分别为 26–46、34–43、38–40。这三局跨批次；单次启动连续三局、100 局和 24 小时运行均待验收。[百局台账](evidence/2026-11-05-hundred/百局台账.json) |
 | 当前阻断 | 最新三局批次中，大厅奖杯遮罩收起后再次显示「已入队」，监管报 `admission-count-conflict` 并停续排，预定三局未验收。 |
 
-下载仓库后，将[固定包](发布附件/海盐折纸-bf8907fa.zip)解压至本项目根目录，核对 `dist/candidates/1.3.2-p0-bf8907fa7ce665f7/candidate.json` 指纹即可使用这一版。需要 Windows x64、.NET 10 Windows Desktop Runtime 和 Edge WebView2。需要查验逐项受控回执时，将[离线回归证据](发布附件/离线回归证据.7z)也解压到项目根。正式账号的运行目录和仍在使用的批次票据保留在本机。以下 `dist/1.3.0` 和 `dist/1.3.1-*` 命令对应历史独立版，在原开发机上需先将 `dist/历史独立发行版.7z` 解压至 `dist`。
-
-独立 Windows x64 应用。1.3.0 提供单桌出牌、战绩和热座连局；1.3.1 是早期即时制版本，缺少后续 P0 保桌修复，请勿用它参与正式站真人复测。正式复测只使用[验收记录](evidence/2026-11-04-realtime-gate/验收记录.md)中明确放行的固定构建。各版同目录的 `SeatControl.exe` 提供后台命令控制，本机需要 Microsoft Edge WebView2 Runtime。
+需要查验逐项受控回执时，将[离线回归证据](发布附件/离线回归证据.7z)解压到单独的目录。正式账号资料和本机运行票据保存在本机。
 
 「开始游戏 → 即时制」自动匹配、己方出牌和结算后重新排队的开发计划见[海盐折纸 24 小时即时制自动匹配开发规划](../../docs/projects/海盐折纸真人实战开发规划.md)。
 
@@ -44,7 +46,7 @@ BGA 官方介绍的完整游戏为 2–4 人。自动出牌请用于 BGA 允许�
 同一入口也可在项目 PowerShell 中启动。站点应具有该游戏并允许自动匹配测试。
 
 ```powershell
-& .\dist\1.3.1-realtime\SeatControl.exe --realtime 3 --site Studio
+& .\SeatControl.exe --realtime 3 --site Studio
 ```
 
 本机提供的测试账号属于 BGA 正式站。项目目录的 `BGA测试账号.xml` 是加密的 PowerShell 凭据文件，可由保存时的 Windows 用户通过 `Import-Clixml` 读取。助手使用 Windows 凭据管理器中对应站点的记录。上面的 Studio 命令需要单独的 Studio 账号。
@@ -68,19 +70,19 @@ BGA 官方介绍的完整游戏为 2–4 人。自动出牌请用于 BGA 允许�
 $seriesRoot = Join-Path $env:LOCALAPPDATA 'SeaSaltDesk'
 $batchId = [guid]::NewGuid().ToString('N')
 $batchId
-& .\dist\1.3.0\SeatControl.exe --series 10 --guest FoldTest --batch-id $batchId --root $seriesRoot
+& .\SeatControl.exe --series 10 --guest FoldTest --batch-id $batchId --root $seriesRoot
 ```
 
 已有批次中断后，在同一 PowerShell 会话中运行下列命令。若重新打开了终端，先将 `$batchId` 和 `$seriesRoot` 设为原来的值。
 
 ```powershell
-& .\dist\1.3.0\SeatControl.exe --resume $batchId --root $seriesRoot
+& .\SeatControl.exe --resume $batchId --root $seriesRoot
 ```
 
-回合制专用包位于 `dist/1.3.1-turnbased`。从这个目录打开 `SeaSaltDesk.exe` 可使用弹窗中的速度选择。要从命令行转入回合制，先确认原热座批次已停止，再用原编号恢复。新建热座批次时，`--series` 也可搭配 `--speed turnbased`。
+从主窗口可选择回合制速度。要从命令行转入回合制，先确认原热座批次已停止，再用原编号恢复。新建热座批次时，`--series` 也可搭配 `--speed turnbased`。
 
 ```powershell
-& .\dist\1.3.1-turnbased\SeatControl.exe --resume $batchId --root $seriesRoot --speed turnbased
+& .\SeatControl.exe --resume $batchId --root $seriesRoot --speed turnbased
 ```
 
 例如，原计划 10 局、转入前已收录 3 局，这 3 局保留在历史分段。若第 4 桌已开局，助手会沿用原桌号继续。该桌结算后计入转入后收录的 7 局。
@@ -92,7 +94,7 @@ $batchId
 在项目目录的 PowerShell 7 中可用以下命令打开后台大厅并读取状态。默认复用助手已登录的网页会话。
 
 ```powershell
-$seatInfo = [Diagnostics.ProcessStartInfo]::new((Resolve-Path 'dist/1.3.0/SeatControl.exe').Path)
+$seatInfo = [Diagnostics.ProcessStartInfo]::new((Resolve-Path '.\SeatControl.exe').Path)
 $seatInfo.UseShellExecute = $false
 $seatInfo.CreateNoWindow = $true
 $seatInfo.RedirectStandardInput = $true
@@ -135,10 +137,6 @@ BGA 正式站的 Hotseat 供 Premium 用户在同一设备轮流操作。在游�
 
 ```powershell
 dotnet run --project app/SeaSaltDesk.csproj
-$publish = @('-c','Release','-r','win-x64','--self-contained','true','-p:PublishSingleFile=true','-p:IncludeNativeLibrariesForSelfExtract=true','-p:EnableCompressionInSingleFile=true')
-dotnet publish app/SeaSaltDesk.csproj @publish -o dist/1.3.1-realtime
-dotnet publish control/SeatControl.csproj @publish -o control/bin/publish
-Copy-Item control/bin/publish/SeatControl.exe dist/1.3.1-realtime/SeatControl.exe
 ```
 
 ### 即时制 P0 候选包
