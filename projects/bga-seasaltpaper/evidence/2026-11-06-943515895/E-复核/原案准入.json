@@ -1,0 +1,368 @@
+{
+  "pin": "C0486F8268849E3000800F45EEEE28C1339F6E8234560D4D96C43329ABC772B9",
+  "originalTable": "943515895",
+  "incident": "allocated-play-seat-not-ready",
+  "passed": true,
+  "evidence": [
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案结果.json",
+      "sha256": "BF1D7C9E5DA9C97F645794469DF349BAE3119FA5DE36740DF2E847A377319681"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/策略专项结果.json",
+      "sha256": "8C6A37D938B14748F14EDC6E68AD549AEF22F5DE590FCB7E2F8F1532DF17A919"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943447870原案/discard1/result.json",
+      "sha256": "58D67B83182F245FE4F62F505DF827A13AC137B805CC3B01667CDB9EA1D557C4"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943447870原案/discard1/server.jsonl",
+      "sha256": "BBFDEA20FC3A552CE8FE8F131B4A8F5B88D1E0981EB3ABEC571BF61E98C45AB0"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案-discard1.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943447870原案/discard2/result.json",
+      "sha256": "7A0FA5C358D11C7988B451F0E3DB93147008C5FE8D3FEE22DAA8F1F712648DA4"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943447870原案/discard2/server.jsonl",
+      "sha256": "50FC8641F62E433C7152E013817F1732D2F8CECE387C1DC58EA09D8DA6F3E628"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案-discard2.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943447870原案/same/result.json",
+      "sha256": "9FE1B7CB7842BC48E988C1DBFD77C916455DF4CFE532F5E1A78A4E54D1F4A5A9"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943447870原案/same/server.jsonl",
+      "sha256": "A847FE03D39FCBEB17A1998BC06BA96DF9BF179DF8CACB5941597EBB8354844A"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案-same.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943447870原案/stuck/result.json",
+      "sha256": "856D40E0054B7D8AA361020A4EE73509C41190A2A6A4B31F61A1ADA67762E64D"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943447870原案/stuck/server.jsonl",
+      "sha256": "B8AE17058423338E89A2BACD2FD0C92492EB8C022C6A34CC36493CF905268B0F"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案-stuck.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943484015原案/converged/result.json",
+      "sha256": "6D0E0F8A26CC6302E669F342B12FD5C44BA97588700B8C05B28F9FE2F64EE5DE"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943484015原案/converged/server.jsonl",
+      "sha256": "7165F0E3175BE65DE34A200EA5389C3156B2FBE9EEAE323684B49F9A316BB78B"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案-converged.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943484015原案/same/result.json",
+      "sha256": "470AFEB318D952F3EE3DFC85CC612C2EA4D720D5460C19891921774D0561CA2C"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943484015原案/same/server.jsonl",
+      "sha256": "1C3A20E311D108F7E2B00298094B0DA65437B32DFEEE3A37EFF59D36E24E10DE"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案-same.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943484015原案/stuck/result.json",
+      "sha256": "EDB0B8E63E7606C7165FAE1B544062170E9E056F477046D6F3A02C63A6F91BC0"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943484015原案/stuck/server.jsonl",
+      "sha256": "799E56614E65E9E00E0CD03FAD39C9C424C856B36AF31952FE4EFF39716BF9E7"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案-stuck.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943484015原案/wrong-seat/result.json",
+      "sha256": "6CD1B3EC41B1C9ED4D26657E461E8C94DDA3DA6D10E2090B806E838953CEAC86"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943484015原案/wrong-seat/server.jsonl",
+      "sha256": "73A980A7DE20CAD3DB8AD447E4AB1F7977DB690DBBAB6403A39084DFA0907766"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/原案-wrong-seat.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/converged/result.json",
+      "sha256": "BB62F8E0EDF5B8DE4BD440179A1D81273429AB0C86DF180AE72809C0D52483FC"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/converged/server.jsonl",
+      "sha256": "364E96EF55276E85574C934EC969C4E72A9870B162942355CD1F5AF0387E41FD"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/本轮-converged.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/stuck/result.json",
+      "sha256": "A0B3BE2E9098DE7185B4C4593A667A633CF5D6696EBBAE9AA5448D0EE361F394"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/stuck/server.jsonl",
+      "sha256": "9EF6C4CD278A432AF82073D69B7203F112E1871C3D984781DA2554808D9EC7BC"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/本轮-stuck.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/same-required/result.json",
+      "sha256": "6D69E788A86C2982A6488DB787CC8E3B38A2C9D5BFCD821FEBDBF5A116AA1BA6"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/same-required/server.jsonl",
+      "sha256": "C479541F23CD5DB749F4B330D521124F19DA762C9E89433E8B65ED30F79654E1"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/本轮-same-required.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/pending-opponent/result.json",
+      "sha256": "98DF5815455E02E1C0696E4997E48CE03ACB29629F1AC7B5A36AD5A4885C0178"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/pending-opponent/server.jsonl",
+      "sha256": "37E15247F076763A8C63E09356BB4DF300B543D8AA9B4040330A7D09ADFA83E7"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/本轮-pending-opponent.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/wrong-seat/result.json",
+      "sha256": "6EBC4E7AF68B3647DBEBECBAECB17C47F4D83DB66BEEE0B8F6FFADE71558A8C6"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943492964原案/wrong-seat/server.jsonl",
+      "sha256": "CEA67D20A76CFDB5D6F25CD9443DABD2639BC34A7CDBDCCE93D50BF5A82FCCE6"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/本轮-wrong-seat.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/双按钮策略/both/result.json",
+      "sha256": "08984AF4C317D778D26EED95394B0AD44B83D249E8D4ED7795FC3CBB13D17825"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/双按钮策略/both/server.jsonl",
+      "sha256": "7332B2B062170FD475FA0BF908B7AEF95D8EAF0AD21C1B42F824C0ED0BF5311F"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/策略-both.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/双按钮策略/disabled/result.json",
+      "sha256": "29F19CEB046F83117E9B28AB3A0827B6BED551921690998A4561A05E5E7F4947"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/双按钮策略/disabled/server.jsonl",
+      "sha256": "0CCBF0592D5A73A7EF00F8830D002CF824A3335D2FCCCB720996E9F0AE80FE21"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/策略-disabled.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/双按钮策略/absent/result.json",
+      "sha256": "93D9AEAF30A3E51355820A480962B5A8619487B54E5D06B6E16DC3C915DE35D6"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/双按钮策略/absent/server.jsonl",
+      "sha256": "2D9CC9FBC0D01D0DCE6CDE18CDCE22DF2F80A73D263031A26C7ACBB353CAAA29"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/策略-absent.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/双按钮策略/only-last/result.json",
+      "sha256": "0BEEAFAAE752F3BAF4646014A1262E85713D3057FCFF978D47B3C872B768C0C1"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/双按钮策略/only-last/server.jsonl",
+      "sha256": "2B05D4E71620960EE3D62462F2A7BA4B0F1EE101C81195942C7878391B65C715"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/策略-only-last.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/943515895定向复验结果.json",
+      "sha256": "69368AB8EDD08A15A3DB6BEAB2A4E5B110D397E6A26EF54535AA255E90C175D6"
+    },
+    {
+      "path": "evidence/2026-11-05-hundred/批次监管/批次/c1af041841004da4bb7acdcee19e8939/BGA-943515895-99769903.json",
+      "sha256": "0DE5622946210FF6950B1C96A0D05A541CC83D0336BC1F76FABFAC95ECB1BCFB"
+    },
+    {
+      "path": "evidence/2026-11-05-hundred/批次监管/批次/c1af041841004da4bb7acdcee19e8939/断电原桌救场/E重启复核.json",
+      "sha256": "4533F80090552924D3BEE4B93C96F05C3053BF20A23A0A4B9CF2E0E6FBB09F19"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-advanced/result.json",
+      "sha256": "D09E4EEB023B334BCB93C6248C1F87B33949530CA1F5577ADE09AB5FB71E2CEB"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-advanced/server.jsonl",
+      "sha256": "BC312A1D59632971004AC956098547AE87707819B84E14ECEF3B3F57F3C18487"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-same/result.json",
+      "sha256": "55F385497759108D5E6566C95E663DF9D5121FC31E4852093A96BAE9851FA5D9"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-same/server.jsonl",
+      "sha256": "B2845A03FCDB7998CE218DD81DF861DF08A840E1DDF332BA44B2401D304839E5"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-no-clock/result.json",
+      "sha256": "19B2845E3ABCF91C51D9795E8C49FA0C98E4C8F482D0D9484254F92587205613"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-no-clock/server.jsonl",
+      "sha256": "3CAF7AE80F26C9949229F9C7A5974100E7E85EF1AF5E27EE4A668E3EC4AA3787"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-wrong-opponent/result.json",
+      "sha256": "73E8B7E949159DB6DD748EF7F149FDFF4CECDE0E67631C0E86E9159FD62BC616"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-wrong-opponent/server.jsonl",
+      "sha256": "EBBB5A135A49845DE88D23A2A112D7121F3689A69B25988C47B2CAB7CC7FB362"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-no-journal/result.json",
+      "sha256": "6028EBE04A4208CAE5E6C0CB81B2CB9DE31189EB89D563254410F7897AD12B1F"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-no-journal/server.jsonl",
+      "sha256": "6ED4626D2A359900D9948C1F302FBB53328BDD6A8EDC0A09AB60150ADA410CC6"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-ended/result.json",
+      "sha256": "E8C521A240772AB8F3310E6960607EC135CCEE9911C74080B3C288BADCB42364"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/resume-ended/server.jsonl",
+      "sha256": "4FAABEB673F74A4DB767E783E4D0E21ADBD935AF2176D728EC4184D949245106"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/定向复验/frame-blank/result.json",
+      "sha256": "72403678E25C1295BCB5568967ECE18485435CF4DC773C8D53D57E6584E11BC4"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/定向复验/frame-blank/server.jsonl",
+      "sha256": "B5FEC92B1639D78D41FE9355B0FFCF6CC127C3CFAC02AB610D260B52D488E773"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/定向复验/frame-missing-frame/result.json",
+      "sha256": "19607088F5C1800C9917BD6EABE805F7F65D477E8D1C943FFD93AA9C0D55F029"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/A-实测-bf8907fa7ce665f7/定向复验/frame-missing-frame/server.jsonl",
+      "sha256": "74AD0A0535062210CB76B9C264695FAED2A65D120C9ECA7E1275615306D54836"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案结果.json",
+      "sha256": "3ADB111B4FA8D0FF68BA808DFC5947C867B2113B822BC83BD320D28FF2C3EE52"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/recoverable/result.json",
+      "sha256": "3E0719E523EAC3D9E44DF0BF0516A60D70383919DAC01A3525F11447627B128A"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/recoverable/server.jsonl",
+      "sha256": "1E7D63144E6FCFB2014DAF5905175FFFF17C3BB42F1E3AD2385D0718DC040E69"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/分桌-recoverable.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/permanent/result.json",
+      "sha256": "851A475875C5128AB8D66608389F136813B7B4EC13D0C1B0D6EE328C0724D4EA"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/permanent/server.jsonl",
+      "sha256": "FE07879C41D811B7745DFF76ADB0D9857CDE35075C1AC6D0766CD3A8F739E429"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/分桌-permanent.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/natural/result.json",
+      "sha256": "947B4A056A989F318D7123060FB4E87C8E95B644300E49D8EC20453F19D3324F"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/natural/server.jsonl",
+      "sha256": "CF7D44E43B22415A4A57A8923D1B1B94A0A50931CD7C02B8D84D8161699A5802"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/分桌-natural.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/wrong-seat/result.json",
+      "sha256": "F1AAFEF6266F38C960BC630284C4B90AC37B2B4792A15232393399195C98615A"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/wrong-seat/server.jsonl",
+      "sha256": "0B5DD65932EDC24DD4CDF01621269AC874562D0EC183F95CF0438879F92DA901"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/分桌-wrong-seat.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/already-playing/result.json",
+      "sha256": "CC001F46E3FCAB340540795D24D954A03ED45551CDEE0FA0097D67382F76F728"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/943500844原案/already-playing/server.jsonl",
+      "sha256": "436208A57CB3775F28529CF6DD1F7220FDA8C1DDCCF592B38ED543C6B45FC6C2"
+    },
+    {
+      "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/分桌-already-playing.err",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/C-外部接管/permanent/result.json",
+      "sha256": "32CB18219A328E2A545ABC3D37C248178F1B8F9B9D01E3DDD355709B631A7C80"
+    },
+    {
+      "path": "evidence/2026-11-06-943515895/C-外部接管/waiting/result.json",
+      "sha256": "B09F4951159819772EEA392520C5D5BD2CECD48FAA3649F29B41D4BC29A505CE"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# 回执索引使用原始字节的 SHA-256；Windows 检出时也要保留原换行。
+evidence/** -text
+*.7z binary
+*.zip binary

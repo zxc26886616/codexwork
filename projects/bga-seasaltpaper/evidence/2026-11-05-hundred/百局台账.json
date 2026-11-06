@@ -1,0 +1,294 @@
+{
+  "target": 100,
+  "total": 3,
+  "assessedBatch": "c1af041841004da4bb7acdcee19e8939",
+  "normalTables": [
+    {
+      "table": "943482610",
+      "batch": "fceec1181a92446782def8942560d54d",
+      "pin": "E829EA06F2129877F588DB5C0C71F542E17FD8A0340E2AAE6E17883D8563B9F2",
+      "url": "https://boardgamearena.com/table?table=943482610",
+      "seats": [
+        {
+          "id": "99769903",
+          "name": "bke780",
+          "rank": 2,
+          "score": 26
+        },
+        {
+          "id": "94826237",
+          "name": "yuanbuyuan",
+          "rank": 1,
+          "score": 46
+        }
+      ],
+      "exclusionReasons": [],
+      "outcome": "负",
+      "evidence": "批次监管\\批次\\fceec1181a92446782def8942560d54d\\桌-943482610.json"
+    },
+    {
+      "table": "943483082",
+      "batch": "fceec1181a92446782def8942560d54d",
+      "pin": "E829EA06F2129877F588DB5C0C71F542E17FD8A0340E2AAE6E17883D8563B9F2",
+      "url": "https://boardgamearena.com/table?table=943483082",
+      "seats": [
+        {
+          "id": "99769903",
+          "name": "bke780",
+          "rank": 2,
+          "score": 34
+        },
+        {
+          "id": "100550893",
+          "name": "dreamyhorse",
+          "rank": 1,
+          "score": 43
+        }
+      ],
+      "exclusionReasons": [],
+      "outcome": "负",
+      "evidence": "批次监管\\批次\\fceec1181a92446782def8942560d54d\\桌-943483082.json"
+    },
+    {
+      "table": "943509022",
+      "batch": "e54e3829344942dca8bddfa21c50e3b5",
+      "pin": "D0CF451098BAB7960B3FE9FC2514319F5D00B9E0A7312F420D2545AB1618B4A0",
+      "url": "https://boardgamearena.com/table?table=943509022",
+      "seats": [
+        {
+          "id": "99769903",
+          "name": "bke780",
+          "rank": 2,
+          "score": 38
+        },
+        {
+          "id": "93059309",
+          "name": "purplewitch14541",
+          "rank": 1,
+          "score": 40
+        }
+      ],
+      "exclusionReasons": [],
+      "outcome": "负",
+      "evidence": "批次监管\\批次\\e54e3829344942dca8bddfa21c50e3b5\\桌-943509022.json"
+    }
+  ],
+  "excludedTables": [
+    {
+      "table": "943447870",
+      "batch": "b86b83dbf7b64785a1e6e071a89df383",
+      "pin": "B1F476915B14A90DC0DB236D37661BBBDD4830D4D9B9FDEBA24C27554488C464",
+      "url": "https://boardgamearena.com/table?table=943447870",
+      "seats": [
+        {
+          "id": "99769903",
+          "name": "bke780",
+          "rank": 2,
+          "score": 28
+        },
+        {
+          "id": "100967836",
+          "name": "- aYa -",
+          "rank": 1,
+          "score": 41
+        }
+      ],
+      "exclusionReasons": [
+        "receipt-unresolved-after-authoritative-read",
+        "stop-request"
+      ],
+      "outcome": "负",
+      "evidence": "批次监管\\批次\\b86b83dbf7b64785a1e6e071a89df383\\桌-943447870.json"
+    },
+    {
+      "table": "943477380",
+      "batch": "c0649a2a98714a8aa0dd641fdadd2f21",
+      "pin": "E829EA06F2129877F588DB5C0C71F542E17FD8A0340E2AAE6E17883D8563B9F2",
+      "url": "https://boardgamearena.com/table?table=943477380",
+      "seats": [],
+      "exclusionReasons": [
+        "official-non-normal-end",
+        "stop-request",
+        "未核实官方正常终局",
+        "缺少同桌批次与官方排名对照",
+        "缺少己方动作后的同桌服务端进展",
+        "缺少自动关键决策"
+      ],
+      "evidence": "批次监管\\批次\\c0649a2a98714a8aa0dd641fdadd2f21\\桌-943477380.json"
+    },
+    {
+      "table": "943484015",
+      "batch": "fceec1181a92446782def8942560d54d",
+      "pin": "E829EA06F2129877F588DB5C0C71F542E17FD8A0340E2AAE6E17883D8563B9F2",
+      "url": "https://boardgamearena.com/table?table=943484015",
+      "seats": [
+        {
+          "id": "99769903",
+          "name": "bke780",
+          "rank": 1,
+          "score": 41
+        },
+        {
+          "id": "99854027",
+          "name": "haminio",
+          "rank": 2,
+          "score": 40
+        }
+      ],
+      "exclusionReasons": [
+        "receipt-unresolved-after-authoritative-read",
+        "stop-request"
+      ],
+      "outcome": "胜",
+      "evidence": "批次监管\\批次\\fceec1181a92446782def8942560d54d\\桌-943484015.json"
+    },
+    {
+      "table": "943492964",
+      "batch": "0e96d19008b04838823a0480a4a67afd",
+      "pin": "927F1A9E3FB2E0247A8E63457D74E5E725056E00E40FCD4CEF74ECF4CDE0562E",
+      "url": "https://boardgamearena.com/table?table=943492964",
+      "seats": [
+        {
+          "id": "99769903",
+          "name": "bke780",
+          "rank": 2,
+          "score": 33
+        },
+        {
+          "id": "99434552",
+          "name": "francoisguffroy",
+          "rank": 1,
+          "score": 40
+        }
+      ],
+      "exclusionReasons": [
+        "receipt-unresolved-after-authoritative-read",
+        "stop-request"
+      ],
+      "outcome": "负",
+      "evidence": "批次监管\\批次\\0e96d19008b04838823a0480a4a67afd\\桌-943492964.json"
+    },
+    {
+      "table": "943500844",
+      "batch": "e54e3829344942dca8bddfa21c50e3b5",
+      "pin": "D0CF451098BAB7960B3FE9FC2514319F5D00B9E0A7312F420D2545AB1618B4A0",
+      "url": "https://boardgamearena.com/table?table=943500844",
+      "seats": [
+        {
+          "id": "99769903",
+          "name": "bke780",
+          "rank": 1,
+          "score": 40
+        },
+        {
+          "id": "94600492",
+          "name": "elo_d_i_e",
+          "rank": 2,
+          "score": 37
+        }
+      ],
+      "exclusionReasons": [
+        "allocated-table-progress-unresolved",
+        "桌内触发合法保底或时钟紧急行动",
+        "stop-request",
+        "handoff"
+      ],
+      "outcome": "胜",
+      "evidence": "批次监管\\批次\\e54e3829344942dca8bddfa21c50e3b5\\桌-943500844.json"
+    },
+    {
+      "table": "943515895",
+      "batch": "c1af041841004da4bb7acdcee19e8939",
+      "pin": "ADA24BE670D0A90870E8127617397C2FB300CF1A88D6010CC0B69042478F3EF1",
+      "url": "https://boardgamearena.com/table?table=943515895",
+      "seats": [],
+      "exclusionReasons": [
+        "allocated-play-seat-not-ready",
+        "series-error-in-table",
+        "主机重启造成原进程退出码未知；同桌救场暂停交接",
+        "handoff",
+        "stop-request",
+        "未核实官方正常终局",
+        "缺少同桌批次与官方排名对照",
+        "缺少己方动作后的同桌服务端进展"
+      ],
+      "evidence": "批次监管\\批次\\c1af041841004da4bb7acdcee19e8939\\桌-943515895.json"
+    }
+  ],
+  "startedAt": "2026-11-05T10:17:14.484860+00:00",
+  "batches": [
+    {
+      "batch": "03a0f0ae33594a0ebdec0b70acf72326",
+      "pin": "B1F476915B14A90DC0DB236D37661BBBDD4830D4D9B9FDEBA24C27554488C464",
+      "clean": false,
+      "planned": 3,
+      "normal": [],
+      "excluded": []
+    },
+    {
+      "batch": "b86b83dbf7b64785a1e6e071a89df383",
+      "pin": "B1F476915B14A90DC0DB236D37661BBBDD4830D4D9B9FDEBA24C27554488C464",
+      "clean": false,
+      "planned": 3,
+      "normal": [],
+      "excluded": [
+        "943447870"
+      ]
+    },
+    {
+      "batch": "c0649a2a98714a8aa0dd641fdadd2f21",
+      "pin": "E829EA06F2129877F588DB5C0C71F542E17FD8A0340E2AAE6E17883D8563B9F2",
+      "clean": false,
+      "planned": 3,
+      "normal": [],
+      "excluded": [
+        "943477380"
+      ]
+    },
+    {
+      "batch": "fceec1181a92446782def8942560d54d",
+      "pin": "E829EA06F2129877F588DB5C0C71F542E17FD8A0340E2AAE6E17883D8563B9F2",
+      "clean": false,
+      "planned": 3,
+      "normal": [
+        "943482610",
+        "943483082"
+      ],
+      "excluded": [
+        "943484015"
+      ]
+    },
+    {
+      "batch": "0e96d19008b04838823a0480a4a67afd",
+      "pin": "927F1A9E3FB2E0247A8E63457D74E5E725056E00E40FCD4CEF74ECF4CDE0562E",
+      "clean": false,
+      "planned": 3,
+      "normal": [],
+      "excluded": [
+        "943492964"
+      ]
+    },
+    {
+      "batch": "e54e3829344942dca8bddfa21c50e3b5",
+      "pin": "D0CF451098BAB7960B3FE9FC2514319F5D00B9E0A7312F420D2545AB1618B4A0",
+      "clean": false,
+      "planned": 3,
+      "normal": [
+        "943509022"
+      ],
+      "excluded": [
+        "943500844"
+      ]
+    },
+    {
+      "batch": "c1af041841004da4bb7acdcee19e8939",
+      "pin": "ADA24BE670D0A90870E8127617397C2FB300CF1A88D6010CC0B69042478F3EF1",
+      "clean": false,
+      "planned": 3,
+      "normal": [],
+      "excluded": [
+        "943515895"
+      ]
+    }
+  ]
+}

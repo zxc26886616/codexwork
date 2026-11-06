@@ -1,0 +1,2831 @@
+{
+  "batch": "e54e3829344942dca8bddfa21c50e3b5",
+  "pin": "D0CF451098BAB7960B3FE9FC2514319F5D00B9E0A7312F420D2545AB1618B4A0",
+  "table": "943509022",
+  "url": "https://boardgamearena.com/table?table=943509022",
+  "end": [
+    {
+      "at": "2026-11-06T05:25:14.0823959+00:00",
+      "batch": "e54e3829344942dca8bddfa21c50e3b5",
+      "site": "BGA",
+      "table": "943509022",
+      "status": "finished",
+      "cancelled": "0",
+      "endgame_reason": "normal_end",
+      "submitted": 170,
+      "confirmed": 147
+    }
+  ],
+  "incidents": [],
+  "decisions": [
+    {
+      "at": "2026-11-06T13:17:02+08:00",
+      "decision": "从牌库抽牌",
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:11.5923899+00:00",
+        "Id": "5358b5b6cb07422f836792d5ba800479",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 1,
+        "move": 2,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||56|1|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:11+08:00",
+      "decision": "选择保留浅蓝色小船",
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:20.6594712+00:00",
+        "Id": "f6c65ec82b6943259c348c8de5e1fe69",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 2,
+        "move": 3,
+        "priorTarget": "chooseCard|99769903||ssp-card-55||54|1|1|0|ssp-card-55|ssp-card-16"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:20+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:11.5923899+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 2
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:29.7172202+00:00",
+        "Id": "0badfb42610647b49d776cc687594427",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 3,
+        "move": 4,
+        "priorTarget": "putDiscardPile|99769903||discard1|1|ssp-card-55:false|54|1|1|0|ssp-card-16"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:29+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:20.6594712+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 3
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:33.3514585+00:00",
+        "Id": "e551eca6c3a64a0c919c4125ce09e0cc",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 4,
+        "move": 6,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-55:false|54|2|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:34+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:33.3514585+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 6
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:35.1523633+00:00",
+        "Id": "8e7494a41b034fe98e4a26df7e570351",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 7,
+        "move": 8,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-55:false|54|2|0|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:35+08:00",
+      "decision": "选择保留黑色鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:33.3514585+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 6
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:36.9760442+00:00",
+        "Id": "7d81c98709384365b3be36f165ca9457",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 8,
+        "move": 9,
+        "priorTarget": "chooseCard|99769903||ssp-card-14||ssp-card-55:false|52|2|0|0|ssp-card-14|ssp-card-49"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:36+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:35.1523633+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 8
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:37.8840722+00:00",
+        "Id": "70a561ad2ca0478aa7232c59eb6cf759",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 9,
+        "move": 10,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-55:false|ssp-card-14:false|52|2|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:40+08:00",
+      "decision": "从弃牌堆1拿取浅蓝色鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:37.8840722+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 10
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:41+08:00",
+      "decision": "选中浅蓝色鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:37.8840722+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 10
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:42+08:00",
+      "decision": "选中黑色鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:41.5042841+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 13
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:43+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:41.5042841+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 13
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:45.1196333+00:00",
+        "Id": "cf54374c1a53494faf2feaa9b2737303",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 13,
+        "move": 14,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-55:false|ssp-card-16:true|ssp-card-14:true|52|1|0|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:45+08:00",
+      "decision": "选中深蓝色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:41.5042841+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 13
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:46+08:00",
+      "decision": "选中浅蓝色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:45.1196333+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 14
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:46+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:45.1196333+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 14
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:47.8537273+00:00",
+        "Id": "87d8ffee7b33433c9c567251b7e44e58",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 14,
+        "move": 15,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-20:true|ssp-card-55:true|51|1|0|2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:47+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:45.1196333+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 14
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:48.7548279+00:00",
+        "Id": "4589df5b6b544f63aed35bc3dcf3c239",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 15,
+        "move": 16,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||51|1|0|2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:48+08:00",
+      "decision": "选择保留深蓝色鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:47.8537273+00:00",
+        "phase": "20/takeCards/99769903",
+        "move": 15
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:50.5600388+00:00",
+        "Id": "7d6e4a6d92e847dc81dea58a84bce860",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 16,
+        "move": 17,
+        "priorTarget": "chooseCard|99769903||ssp-card-27||49|1|0|2|ssp-card-27|ssp-card-5"
+      }
+    },
+    {
+      "at": "2026-11-06T13:17:50+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:48.7548279+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 16
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:17:51.4749877+00:00",
+        "Id": "e64469ba6815493aa0984dae3a2eca49",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 17,
+        "move": 18,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-27:false|49|1|1|2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:01+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:51.4749877+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 18
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:02.3476346+00:00",
+        "Id": "dbab79de62094fcd93592efae369f6fc",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 22,
+        "move": 23,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-27:false|47|2|1|2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:02+08:00",
+      "decision": "选择保留深蓝色贝壳",
+      "lastObservedState": {
+        "at": "2026-11-06T05:17:51.4749877+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 18
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:04.1540052+00:00",
+        "Id": "8b1e375bd7174c478c682eb08406f425",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 23,
+        "move": 24,
+        "priorTarget": "chooseCard|99769903||ssp-card-21||ssp-card-27:false|45|2|1|2|ssp-card-21|ssp-card-36"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:04+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:02.3476346+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 23
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:05.057621+00:00",
+        "Id": "36d7524df7ae4e3eb9e301ed11b4a542",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 24,
+        "move": 25,
+        "priorTarget": "putDiscardPile|99769903||discard1|2|ssp-card-27:false|ssp-card-21:false|45|2|1|2|ssp-card-36"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:05+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:04.1540052+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 24
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:05.9654821+00:00",
+        "Id": "b37106a27f54488ba33da92a883b01cd",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 25,
+        "move": 26,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-27:false|ssp-card-21:false|45|3|1|2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:08+08:00",
+      "decision": "从弃牌堆2拿取黄色贝壳",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:05.9654821+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 26
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:09+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:05.9654821+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 26
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:10.5025899+00:00",
+        "Id": "a135762dec6a457ba8e168cb41d089b6",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 29,
+        "move": 30,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-27:false|ssp-card-21:false|ssp-card-5:false|45|2|0|2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:17+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:10.5025899+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 30
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:18.6545083+00:00",
+        "Id": "53e683248b364890b8247ae80d7e1f3a",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 33,
+        "move": 34,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-27:false|ssp-card-21:false|ssp-card-5:false|43|2|1|4"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:18+08:00",
+      "decision": "选择保留黑色贝壳",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:10.5025899+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 30
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:19.572231+00:00",
+        "Id": "6076c389730d4a6f948b3bf2fee80c43",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 34,
+        "move": 35,
+        "priorTarget": "chooseCard|99769903||ssp-card-15||ssp-card-27:false|ssp-card-21:false|ssp-card-5:false|41|2|1|4|ssp-card-15|ssp-card-13"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:19+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:18.6545083+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 34
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:20.4790491+00:00",
+        "Id": "21ec4c8b4f7041bf8f8fd01d757615f8",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 35,
+        "move": 36,
+        "priorTarget": "putDiscardPile|99769903||discard1|2|ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|41|2|1|4|ssp-card-13"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:21+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:20.4790491+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 36
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:22.2806262+00:00",
+        "Id": "d6ad0a6a696543e4bf797bef8334b2e5",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 36,
+        "move": 37,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|41|3|1|6"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:34+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:22.2806262+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 37
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:34.9655016+00:00",
+        "Id": "b84f3e915cf7469884da4e081bae75f6",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 42,
+        "move": 43,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|38|3|2|6"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:34+08:00",
+      "decision": "选择保留浅蓝色小船",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:22.2806262+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 37
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:35.8708964+00:00",
+        "Id": "33af7b76ff624694b06e2a4b7daf263f",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 43,
+        "move": 44,
+        "priorTarget": "chooseCard|99769903||ssp-card-43||ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|36|3|2|6|ssp-card-6|ssp-card-43"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:35+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:34.9655016+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 43
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:36.7779326+00:00",
+        "Id": "e2c3cf6732d64dc99519797ef757e3eb",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 44,
+        "move": 45,
+        "priorTarget": "putDiscardPile|99769903||discard1|3|ssp-card-43:false|ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|36|3|2|6|ssp-card-6"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:37+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:36.7779326+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 45
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:38.6045871+00:00",
+        "Id": "00b2de4331724a269cf49ca4e29c2f50",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 45,
+        "move": 46,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-43:false|ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|36|4|2|6"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:47+08:00",
+      "decision": "从弃牌堆2拿取黑色小船",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:38.6045871+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 46
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:48+08:00",
+      "decision": "选中浅蓝色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:38.6045871+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 46
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:49+08:00",
+      "decision": "选中黑色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:48.5617851+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 51
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:50+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:48.5617851+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 51
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:52.1883143+00:00",
+        "Id": "68d2bea5275b444e95293e0cfe535b8f",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 51,
+        "move": 52,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-43:true|ssp-card-35:true|ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|34|5|1|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:52+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:48.5617851+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 51
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:53.0920057+00:00",
+        "Id": "4bb470b0e0714b4fa5ed2d646703b0f9",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 52,
+        "move": 53,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|34|5|1|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:53+08:00",
+      "decision": "选择保留浅蓝色章鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:52.1883143+00:00",
+        "phase": "20/takeCards/99769903",
+        "move": 52
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:53.9990837+00:00",
+        "Id": "be4bdcc1fb01429ea7d0377834ad3816",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 53,
+        "move": 54,
+        "priorTarget": "chooseCard|99769903||ssp-card-57||ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|32|5|1|7|ssp-card-57|ssp-card-53"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:54+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:53.9990837+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 54
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:18:54.9028244+00:00",
+        "Id": "7e0b312307264d53b6ef8ffa223d04d6",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 54,
+        "move": 55,
+        "priorTarget": "putDiscardPile|99769903||discard1|5|ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|ssp-card-57:false|32|5|1|7|ssp-card-53"
+      }
+    },
+    {
+      "at": "2026-11-06T13:18:54+08:00",
+      "decision": "宣布最后机会",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:53.9990837+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 54
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:07.6051032+00:00",
+        "Id": "5198cbe45af74656ac47d6dc3d0fac5f",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "79/beforeEndRound/93059309",
+        "priorMove": 55,
+        "move": 58,
+        "priorTarget": "playCards|99769903||endRound_button|宣告此轮结束 (\"最后机会\")|ssp-card-27:false|ssp-card-21:false|ssp-card-15:false|ssp-card-5:false|ssp-card-57:false|32|6|1|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:07+08:00",
+      "decision": "确认本轮得分",
+      "lastObservedState": {
+        "at": "2026-11-06T05:18:54.9028244+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 55
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:14.8583519+00:00",
+        "Id": "508f77c10d4b4399853d1a51f77951f2",
+        "priorPhase": "79/beforeEndRound/93059309",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 58,
+        "move": 62,
+        "priorTarget": "beforeEndRound|93059309|||我确认完了|32|5|1|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:14+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:07.6051032+00:00",
+        "phase": "79/beforeEndRound/93059309",
+        "move": 58
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:15.779256+00:00",
+        "Id": "6b6b1cf7568047a28b5acc2edeb5e6cf",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 62,
+        "move": 63,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||56|1|0|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:15+08:00",
+      "decision": "选择保留白色美人鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:14.8583519+00:00",
+        "phase": "20/takeCards/99769903",
+        "move": 62
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:17.5977026+00:00",
+        "Id": "ff825a88b92d4255b797738089de9326",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 63,
+        "move": 64,
+        "priorTarget": "chooseCard|99769903||ssp-card-25||54|1|0|0|ssp-card-25|ssp-card-55"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:17+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:15.779256+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 63
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:18.4983304+00:00",
+        "Id": "ed43084ea2924d488b8601240cfca1c7",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 64,
+        "move": 65,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-25:false|54|1|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:20+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:18.4983304+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 65
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:21.2295646+00:00",
+        "Id": "0646efaaafad41909af6f5085f5a6154",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 67,
+        "move": 68,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-25:false|54|1|0|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:21+08:00",
+      "decision": "选择保留浅蓝色鲨鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:18.4983304+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 65
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:23.0331871+00:00",
+        "Id": "c1b509654075451c9d38742a57fe6480",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 68,
+        "move": 69,
+        "priorTarget": "chooseCard|99769903||ssp-card-2||ssp-card-25:false|52|1|0|1|ssp-card-8|ssp-card-2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:23+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:21.2295646+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 68
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:23.9380694+00:00",
+        "Id": "7d0d45d270f345c38de9aeb6416c01ae",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 69,
+        "move": 70,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-2:false|ssp-card-25:false|52|1|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:26+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:23.9380694+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 70
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:27.5634827+00:00",
+        "Id": "e325e092c41e48c4a4323c9b263b164c",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 72,
+        "move": 73,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-2:false|ssp-card-25:false|52|1|0|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:27+08:00",
+      "decision": "选择保留深蓝色鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:23.9380694+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 70
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:29.3708438+00:00",
+        "Id": "4a915edd554d4220be33f095972d52d3",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 73,
+        "move": 74,
+        "priorTarget": "chooseCard|99769903||ssp-card-27||ssp-card-2:false|ssp-card-25:false|50|1|0|1|ssp-card-45|ssp-card-27"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:29+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:27.5634827+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 73
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:30.2851825+00:00",
+        "Id": "e02362356af042d8b9047c6c37d37199",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 74,
+        "move": 75,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-27:false|ssp-card-2:false|ssp-card-25:false|50|1|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:33+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:30.2851825+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 75
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:33.9094214+00:00",
+        "Id": "af275874b2064481acd13f589c41dbd6",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 77,
+        "move": 78,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-27:false|ssp-card-2:false|ssp-card-25:false|50|1|0|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:33+08:00",
+      "decision": "选择保留白色美人鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:30.2851825+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 75
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:35.7266987+00:00",
+        "Id": "b7c05c589eb04180a24ac93b6c427894",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 78,
+        "move": 79,
+        "priorTarget": "chooseCard|99769903||ssp-card-18||ssp-card-27:false|ssp-card-2:false|ssp-card-25:false|48|1|0|1|ssp-card-42|ssp-card-18"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:35+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:33.9094214+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 78
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:36.6310194+00:00",
+        "Id": "d134d9498df045b9b0c2145b51e9a530",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 79,
+        "move": 80,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-27:false|ssp-card-2:false|ssp-card-25:false|ssp-card-18:false|48|1|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:39+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:36.6310194+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 80
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:40.2567136+00:00",
+        "Id": "4483c8c4d93c43f6af31d9361e551285",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 82,
+        "move": 83,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-27:false|ssp-card-2:false|ssp-card-25:false|ssp-card-18:false|48|1|0|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:40+08:00",
+      "decision": "选择保留绿色鲨鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:36.6310194+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 80
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:42.0619191+00:00",
+        "Id": "96ba8e938b454f26ad5c7e7807d71e5c",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 83,
+        "move": 84,
+        "priorTarget": "chooseCard|99769903||ssp-card-11||ssp-card-27:false|ssp-card-2:false|ssp-card-25:false|ssp-card-18:false|46|1|0|3|ssp-card-52|ssp-card-11"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:42+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:40.2567136+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 83
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:42.9681426+00:00",
+        "Id": "bbd2ea36430845fcbde01ed578e2c42a",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 84,
+        "move": 85,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-27:false|ssp-card-2:false|ssp-card-11:false|ssp-card-25:false|ssp-card-18:false|46|1|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:49+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:42.9681426+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 85
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:50.216935+00:00",
+        "Id": "66234e229ae44d278d8ca2566159a244",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 87,
+        "move": 88,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-27:false|ssp-card-2:false|ssp-card-11:false|ssp-card-25:false|ssp-card-18:false|46|1|0|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:50+08:00",
+      "decision": "选择保留深蓝色游泳者",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:42.9681426+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 85
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:52.0389316+00:00",
+        "Id": "dc2a2ca47286421388cbc677286404a7",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 88,
+        "move": 89,
+        "priorTarget": "chooseCard|99769903||ssp-card-58||ssp-card-27:false|ssp-card-2:false|ssp-card-11:false|ssp-card-25:false|ssp-card-18:false|44|1|0|3|ssp-card-48|ssp-card-58"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:52+08:00",
+      "decision": "选中深蓝色游泳者用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:50.216935+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 88
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:52+08:00",
+      "decision": "选中浅蓝色鲨鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:50.216935+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 88
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:53+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:52.0389316+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 89
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:19:55.6585668+00:00",
+        "Id": "6ef25caaf0df44cea927232c10136824",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 89,
+        "move": 90,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-27:false|ssp-card-58:true|ssp-card-2:true|ssp-card-11:false|ssp-card-25:false|ssp-card-18:false|44|1|1|5"
+      }
+    },
+    {
+      "at": "2026-11-06T13:19:55+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:52.0389316+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 89
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:01.0915786+00:00",
+        "Id": "f8f7a9bc5f284794a64d22a2cc555b02",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "79/beforeEndRound/99769903",
+        "priorMove": 90,
+        "move": 91,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-27:false|ssp-card-11:false|ssp-card-25:false|ssp-card-18:false|44|1|1|5"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:01+08:00",
+      "decision": "确认本轮得分",
+      "lastObservedState": {
+        "at": "2026-11-06T05:19:55.6585668+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 90
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:06.5295228+00:00",
+        "Id": "93140bd6fb1845c79e9d46e51bde78fd",
+        "priorPhase": "79/beforeEndRound/99769903",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 91,
+        "move": 93,
+        "priorTarget": "beforeEndRound|99769903|||我确认完了|44|1|1|5"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:06+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:01.0915786+00:00",
+        "phase": "79/beforeEndRound/99769903",
+        "move": 91
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:07.4462658+00:00",
+        "Id": "b3d06b1100cf464bb1831d192fe6e5f3",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 93,
+        "move": 94,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||56|1|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:07+08:00",
+      "decision": "选择保留黑色螃蟹",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:06.5295228+00:00",
+        "phase": "20/takeCards/99769903",
+        "move": 93
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:08.3453677+00:00",
+        "Id": "9584e79aec8245f194128d7e8803c9bc",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 94,
+        "move": 95,
+        "priorTarget": "chooseCard|99769903||ssp-card-17||54|1|1|0|ssp-card-17|ssp-card-48"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:08+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:07.4462658+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 94
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:09.24803+00:00",
+        "Id": "0fb6c416a98c454abd95ddfa5c3763ed",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 95,
+        "move": 96,
+        "priorTarget": "putDiscardPile|99769903||discard1|1|ssp-card-17:false|54|1|1|0|ssp-card-48"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:09+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:08.3453677+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 95
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:10.1539502+00:00",
+        "Id": "381bebe1508d40cebeb52cbad91d8c39",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 96,
+        "move": 97,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-17:false|54|2|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:13+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:10.1539502+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 97
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:15.6012561+00:00",
+        "Id": "7484d1eb49f44cf38c091288f17c526d",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 99,
+        "move": 100,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-17:false|54|2|0|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:15+08:00",
+      "decision": "选择保留深蓝色鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:10.1539502+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 97
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:17.4179777+00:00",
+        "Id": "2c52787718c544d3af4685fd1791b90a",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 100,
+        "move": 101,
+        "priorTarget": "chooseCard|99769903||ssp-card-27||ssp-card-17:false|52|2|0|0|ssp-card-27|ssp-card-47"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:17+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:15.6012561+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 100
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:18.3190301+00:00",
+        "Id": "f237361617d7495fa1eb97f8cfd349f2",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 101,
+        "move": 102,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-17:false|ssp-card-27:false|52|2|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:20+08:00",
+      "decision": "从弃牌堆1拿取黑色鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:18.3190301+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 102
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:21+08:00",
+      "decision": "选中深蓝色鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:18.3190301+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 102
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:22+08:00",
+      "decision": "选中黑色鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:21.9334221+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 105
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:23+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:21.9334221+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 105
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:25.56565+00:00",
+        "Id": "d01fa291de41463eb8537bf9900261c2",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 105,
+        "move": 106,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-17:false|ssp-card-27:true|ssp-card-48:true|52|1|0|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:25+08:00",
+      "decision": "选中黄色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:21.9334221+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 105
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:26+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:25.56565+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 106
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:27.37589+00:00",
+        "Id": "7f594b92a3c1443b90929ae6f9e5fd9d",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 106,
+        "move": 107,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-17:false|ssp-card-37:false|51|1|0|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:32+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:27.37589+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 107
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:33.7262325+00:00",
+        "Id": "b746e26e1f364d96bed95c2416738ec5",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 110,
+        "move": 111,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-17:false|ssp-card-37:false|50|0|0|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:33+08:00",
+      "decision": "选择保留深蓝色游泳者",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:27.37589+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 107
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:35.5376399+00:00",
+        "Id": "2ef5c3a0d84b42f99c3e5f66192ad9a7",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 111,
+        "move": 112,
+        "priorTarget": "chooseCard|99769903||ssp-card-58||ssp-card-17:false|ssp-card-37:false|48|0|0|1|ssp-card-58|ssp-card-6"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:35+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:33.7262325+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 111
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:36.4411332+00:00",
+        "Id": "41be848a10af421ba9368329f07855b0",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 112,
+        "move": 113,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-17:false|ssp-card-37:false|ssp-card-58:false|48|1|0|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:41+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:36.4411332+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 113
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:42.7860621+00:00",
+        "Id": "941f48e9fcb84ae7af50cdad4f406778",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 116,
+        "move": 117,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-17:false|ssp-card-37:false|ssp-card-58:false|46|1|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:42+08:00",
+      "decision": "选择保留浅橙色企鹅",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:36.4411332+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 113
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:43.69301+00:00",
+        "Id": "c9b084e730294396beeb00a9aa50be40",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 117,
+        "move": 118,
+        "priorTarget": "chooseCard|99769903||ssp-card-50||ssp-card-17:false|ssp-card-37:false|ssp-card-58:false|44|1|1|1|ssp-card-8|ssp-card-50"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:43+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:42.7860621+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 117
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:45.5003047+00:00",
+        "Id": "d1c2bcdbd62946139b0e6b17438724de",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 118,
+        "move": 119,
+        "priorTarget": "putDiscardPile|99769903||discard1|1|ssp-card-17:false|ssp-card-37:false|ssp-card-58:false|ssp-card-50:false|44|1|1|1|ssp-card-8"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:45+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:43.69301+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 118
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:46.4064285+00:00",
+        "Id": "b67b1d6d52074a81b23a957f956f0f09",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 119,
+        "move": 120,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-17:false|ssp-card-37:false|ssp-card-58:false|ssp-card-50:false|44|2|1|2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:58+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:46.4064285+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 120
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:59.0935634+00:00",
+        "Id": "da8b3195b8bf46d28683df7bdd07c8cc",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 122,
+        "move": 123,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-17:false|ssp-card-37:false|ssp-card-58:false|ssp-card-50:false|44|1|1|2"
+      }
+    },
+    {
+      "at": "2026-11-06T13:20:59+08:00",
+      "decision": "选择保留深蓝色小船",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:46.4064285+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 120
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:20:59.9998198+00:00",
+        "Id": "c60670ed7884470f961929f33eccc37d",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 123,
+        "move": 124,
+        "priorTarget": "chooseCard|99769903||ssp-card-38||ssp-card-17:false|ssp-card-37:false|ssp-card-58:false|ssp-card-50:false|42|1|1|2|ssp-card-38|ssp-card-46"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:00+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:59.9998198+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 124
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:00.9053849+00:00",
+        "Id": "8738cd840a3741bdad7ae2e6b310ab30",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 124,
+        "move": 125,
+        "priorTarget": "putDiscardPile|99769903||discard1|1|ssp-card-17:false|ssp-card-38:false|ssp-card-37:false|ssp-card-58:false|ssp-card-50:false|42|1|1|2|ssp-card-46"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:00+08:00",
+      "decision": "选中深蓝色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:20:59.9998198+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 124
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:01+08:00",
+      "decision": "选中黄色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:00.9053849+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 125
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:02+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:00.9053849+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 125
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:04.54182+00:00",
+        "Id": "a5dfb0cd1e26452aa8e51fafbbe95527",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 125,
+        "move": 126,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-17:false|ssp-card-38:true|ssp-card-37:true|ssp-card-58:false|ssp-card-50:false|42|2|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:04+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:00.9053849+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 125
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:05.433357+00:00",
+        "Id": "014dcc25a1f245478c6518e91c7ef6e4",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 126,
+        "move": 127,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-17:false|ssp-card-58:false|ssp-card-50:false|42|2|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:05+08:00",
+      "decision": "选择保留浅蓝色小船",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:04.54182+00:00",
+        "phase": "20/takeCards/99769903",
+        "move": 126
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:06.3490493+00:00",
+        "Id": "8c3992132c6646f7b8fd8b5c425adb79",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 127,
+        "move": 128,
+        "priorTarget": "chooseCard|99769903||ssp-card-55||ssp-card-17:false|ssp-card-58:false|ssp-card-50:false|40|2|1|3|ssp-card-55|ssp-card-21"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:06+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:05.433357+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 127
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:08.1613187+00:00",
+        "Id": "c33eba3eb4d5401f8b77060f9756a5fc",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 128,
+        "move": 129,
+        "priorTarget": "putDiscardPile|99769903||discard1|2|ssp-card-17:false|ssp-card-55:false|ssp-card-58:false|ssp-card-50:false|40|2|1|3|ssp-card-21"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:08+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:06.3490493+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 128
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:14.4964309+00:00",
+        "Id": "a588b6b8bd3e460ea14d786b39ec6ef6",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "79/beforeEndRound/99769903",
+        "priorMove": 129,
+        "move": 130,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-17:false|ssp-card-55:false|ssp-card-58:false|ssp-card-50:false|40|3|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:14+08:00",
+      "decision": "确认本轮得分",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:08.1613187+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 129
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:19.9406695+00:00",
+        "Id": "8b8d8bbf17eb429c9e89879b258b2f11",
+        "priorPhase": "79/beforeEndRound/99769903",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 130,
+        "move": 132,
+        "priorTarget": "beforeEndRound|99769903|||我确认完了|40|3|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:19+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:14.4964309+00:00",
+        "phase": "79/beforeEndRound/99769903",
+        "move": 130
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:20.8565767+00:00",
+        "Id": "a548db8095864c4face61682d148a6c2",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 132,
+        "move": 133,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||56|1|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:20+08:00",
+      "decision": "选择保留黑色鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:19.9406695+00:00",
+        "phase": "20/takeCards/99769903",
+        "move": 132
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:22.6608262+00:00",
+        "Id": "a10338d9d1d94444b0237d138c66854f",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 133,
+        "move": 134,
+        "priorTarget": "chooseCard|99769903||ssp-card-14||54|1|1|0|ssp-card-14|ssp-card-45"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:22+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:20.8565767+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 133
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:23.5712814+00:00",
+        "Id": "7b09bbaf5a224691a167ae97e9b2629f",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 134,
+        "move": 135,
+        "priorTarget": "putDiscardPile|99769903||discard1|1|ssp-card-14:false|54|1|1|0|ssp-card-45"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:24+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:23.5712814+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 135
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:25.3865787+00:00",
+        "Id": "6475ad04600741f0bf0ec0f51c35abff",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 135,
+        "move": 136,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-14:false|54|2|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:30+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:25.3865787+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 136
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:31.7233397+00:00",
+        "Id": "1b33cd0c0dd44dad8e60b5939999f644",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 138,
+        "move": 139,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-14:false|54|1|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:31+08:00",
+      "decision": "选择保留黑色鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:25.3865787+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 136
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:33.5409182+00:00",
+        "Id": "ef83fae6bb17479c8fba38dd91654fa7",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 139,
+        "move": 140,
+        "priorTarget": "chooseCard|99769903||ssp-card-48||ssp-card-14:false|52|1|1|0|ssp-card-48|ssp-card-24"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:33+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:31.7233397+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 139
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:34.4440817+00:00",
+        "Id": "8b059d28b7db45f69cc38745a850bd34",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 140,
+        "move": 141,
+        "priorTarget": "putDiscardPile|99769903||discard1|1|ssp-card-14:false|ssp-card-48:false|52|1|1|1|ssp-card-24"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:34+08:00",
+      "decision": "选中黑色鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:33.5409182+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 140
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:35+08:00",
+      "decision": "选中黑色鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:34.4440817+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 141
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:36+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:34.4440817+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 141
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:38.0745371+00:00",
+        "Id": "5dc27eb166a04f63a03e7d09c5bd599d",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 141,
+        "move": 142,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-14:true|ssp-card-48:true|52|2|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:38+08:00",
+      "decision": "选中浅蓝色鲨鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:34.4440817+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 141
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:38+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:34.4440817+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 141
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:39.8847087+00:00",
+        "Id": "f2147acc14674a5197728b91ab94b51e",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 142,
+        "move": 143,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-2:false|51|2|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:42+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:39.8847087+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 143
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:43.502245+00:00",
+        "Id": "48159758425c4618ad194832cec3f404",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 145,
+        "move": 146,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-2:false|51|1|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:43+08:00",
+      "decision": "选择保留白色美人鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:39.8847087+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 143
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:45.311439+00:00",
+        "Id": "229b9788baac4df3bd6056320b8ef906",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 146,
+        "move": 147,
+        "priorTarget": "chooseCard|99769903||ssp-card-51||ssp-card-2:false|49|1|1|1|ssp-card-51|ssp-card-17"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:45+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:43.502245+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 146
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:46.218175+00:00",
+        "Id": "e30a38dea4794960a2dd633be5ee3b27",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 147,
+        "move": 148,
+        "priorTarget": "putDiscardPile|99769903||discard1|1|ssp-card-2:false|ssp-card-51:false|49|1|1|3|ssp-card-17"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:47+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:46.218175+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 148
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:48.0395542+00:00",
+        "Id": "7f52f578f2ea4c3f9890da14abb63035",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 148,
+        "move": 149,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-2:false|ssp-card-51:false|49|2|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:50+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:48.0395542+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 149
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:51.6584598+00:00",
+        "Id": "fe12fc3de20f4e5eb6eb5c0f6eaaa1c4",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 151,
+        "move": 152,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-2:false|ssp-card-51:false|49|2|0|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:51+08:00",
+      "decision": "选择保留浅蓝色螃蟹",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:48.0395542+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 149
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:53.4749988+00:00",
+        "Id": "a0d3ffd076034725bf6415bc66ebbc60",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 152,
+        "move": 153,
+        "priorTarget": "chooseCard|99769903||ssp-card-3||ssp-card-2:false|ssp-card-51:false|47|2|0|3|ssp-card-3|ssp-card-12"
+      }
+    },
+    {
+      "at": "2026-11-06T13:21:53+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:51.6584598+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 152
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:21:54.3765887+00:00",
+        "Id": "dd90a96145144a11ae46f77e9bf3c7c8",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 153,
+        "move": 154,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-3:false|ssp-card-2:false|ssp-card-51:false|47|2|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:01+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:54.3765887+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 154
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:02.5369311+00:00",
+        "Id": "32f86ffded4c473689d16998a3e4099c",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 159,
+        "move": 160,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-3:false|ssp-card-2:false|ssp-card-51:false|47|0|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:02+08:00",
+      "decision": "选择保留白色美人鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:21:54.3765887+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 154
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:04.3550985+00:00",
+        "Id": "e110d0ed31e7430784eb0907f5f88cb3",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 160,
+        "move": 161,
+        "priorTarget": "chooseCard|99769903||ssp-card-18||ssp-card-3:false|ssp-card-2:false|ssp-card-51:false|45|0|1|3|ssp-card-33|ssp-card-18"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:04+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:02.5369311+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 160
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:05.2604308+00:00",
+        "Id": "8a9d20d58d854ffc8ddcaf5333e8d089",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 161,
+        "move": 162,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-3:false|ssp-card-2:false|ssp-card-51:false|ssp-card-18:false|45|1|1|5"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:07+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:05.2604308+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 162
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:08.8761468+00:00",
+        "Id": "4321f3d32e1d48cfbe0a7b9b45451d94",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 164,
+        "move": 165,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-3:false|ssp-card-2:false|ssp-card-51:false|ssp-card-18:false|45|0|1|5"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:08+08:00",
+      "decision": "选择保留黑色游泳者",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:05.2604308+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 162
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:10.6971839+00:00",
+        "Id": "b614aafae1d640a4aa0598b3aa6fb50b",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 165,
+        "move": 166,
+        "priorTarget": "chooseCard|99769903||ssp-card-9||ssp-card-3:false|ssp-card-2:false|ssp-card-51:false|ssp-card-18:false|43|0|1|5|ssp-card-56|ssp-card-9"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:10+08:00",
+      "decision": "选中黑色游泳者用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:08.8761468+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 165
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:11+08:00",
+      "decision": "选中浅蓝色鲨鱼用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:10.6971839+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 166
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:12+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:10.6971839+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 166
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:14.3173191+00:00",
+        "Id": "631ce95275784456bb969e2166c8c484",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "50/chooseOpponent/99769903",
+        "priorMove": 166,
+        "move": 167,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-3:false|ssp-card-9:true|ssp-card-2:true|ssp-card-51:false|ssp-card-18:false|43|1|1|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:17+08:00",
+      "decision": "宣布最后机会",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:14.3173191+00:00",
+        "phase": "50/chooseOpponent/99769903",
+        "move": 167
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:38.7812659+00:00",
+        "Id": "049d51283f6c4917ad6bc17ea56cfbe7",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "79/beforeEndRound/93059309",
+        "priorMove": 168,
+        "move": 173,
+        "priorTarget": "playCards|99769903||endRound_button|宣告此轮结束 (\"最后机会\")|ssp-card-3:false|ssp-card-24:false|ssp-card-51:false|ssp-card-18:false|43|1|1|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:38+08:00",
+      "decision": "确认本轮得分",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:17.0414676+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 168
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:46.0269854+00:00",
+        "Id": "4bab1a763be54d90a832d2feb68a8f3a",
+        "priorPhase": "79/beforeEndRound/93059309",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 173,
+        "move": 177,
+        "priorTarget": "beforeEndRound|93059309|||我确认完了|41|1|2|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:46+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:38.7812659+00:00",
+        "phase": "79/beforeEndRound/93059309",
+        "move": 173
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:46.9408072+00:00",
+        "Id": "e468535f56984851b14daf75ffb8be47",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 177,
+        "move": 178,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||56|1|0|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:46+08:00",
+      "decision": "选择保留灰色章鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:38.7812659+00:00",
+        "phase": "79/beforeEndRound/93059309",
+        "move": 173
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:48.7587612+00:00",
+        "Id": "9cd145f26ab0473f8db8da026e327c27",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 178,
+        "move": 179,
+        "priorTarget": "chooseCard|99769903||ssp-card-53||54|1|0|0|ssp-card-53|ssp-card-40"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:48+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:46.9408072+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 178
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:49.6538346+00:00",
+        "Id": "14775453128d4db497bfc89c2aaf60d4",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 179,
+        "move": 180,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-53:false|54|1|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:52+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:49.6538346+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 180
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:53.2839108+00:00",
+        "Id": "cf8f4c825d3f475ba8243fcfe0156148",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 182,
+        "move": 183,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-53:false|54|1|0|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:53+08:00",
+      "decision": "选择保留绿色章鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:49.6538346+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 180
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:55.0897786+00:00",
+        "Id": "41ae755de1c94bf2b350072979f9234d",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 183,
+        "move": 184,
+        "priorTarget": "chooseCard|99769903||ssp-card-45||ssp-card-53:false|52|1|0|0|ssp-card-45|ssp-card-3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:55+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:53.2839108+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 183
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:56.0040158+00:00",
+        "Id": "6fbc358d3798470c8bb6059ed9a1bdc2",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 184,
+        "move": 185,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-45:false|ssp-card-53:false|52|1|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:57+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:56.0040158+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 185
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:22:58.7273107+00:00",
+        "Id": "71543eef5c35437a8e7d55587458c99b",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 187,
+        "move": 188,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-45:false|ssp-card-53:false|52|0|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:22:58+08:00",
+      "decision": "选择保留白色美人鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:56.0040158+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 185
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:00.5390142+00:00",
+        "Id": "b540ce7c88854532af1771522a82ae4e",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 188,
+        "move": 189,
+        "priorTarget": "chooseCard|99769903||ssp-card-51||ssp-card-45:false|ssp-card-53:false|50|0|1|3|ssp-card-10|ssp-card-51"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:00+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:22:58.7273107+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 188
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:01.4425283+00:00",
+        "Id": "f71b9ddfdf8d47889e9ef24b8d6d8083",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 189,
+        "move": 190,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-45:false|ssp-card-53:false|ssp-card-51:false|50|1|1|4"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:04+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:01.4425283+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 190
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:05.0678807+00:00",
+        "Id": "abe2725a24574a31997e39a3fb2ac754",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 192,
+        "move": 193,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-45:false|ssp-card-53:false|ssp-card-51:false|50|1|0|4"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:05+08:00",
+      "decision": "选择保留白色美人鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:01.4425283+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 190
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:06.8732642+00:00",
+        "Id": "0889215b8c644f80bc037c03688503ae",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 193,
+        "move": 194,
+        "priorTarget": "chooseCard|99769903||ssp-card-30||ssp-card-45:false|ssp-card-53:false|ssp-card-51:false|48|1|0|4|ssp-card-30|ssp-card-33"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:06+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:05.0678807+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 193
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:07.7907306+00:00",
+        "Id": "1add0bf7b02342ddb4b9647f5fc56b64",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 194,
+        "move": 195,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-45:false|ssp-card-53:false|ssp-card-51:false|ssp-card-30:false|48|1|1|6"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:10+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:07.7907306+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 195
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:11.4265217+00:00",
+        "Id": "629c1a29807d4416a14f86639ef1a069",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 197,
+        "move": 198,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-45:false|ssp-card-53:false|ssp-card-51:false|ssp-card-30:false|48|1|0|6"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:11+08:00",
+      "decision": "选择保留绿色鲨鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:07.7907306+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 195
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:13.2358084+00:00",
+        "Id": "bc3cc5bb8f594391952ce1508ef4475d",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 198,
+        "move": 199,
+        "priorTarget": "chooseCard|99769903||ssp-card-11||ssp-card-45:false|ssp-card-53:false|ssp-card-51:false|ssp-card-30:false|46|1|0|6|ssp-card-11|ssp-card-29"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:13+08:00",
+      "decision": "宣布最后机会",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:11.4265217+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 198
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:40.4300289+00:00",
+        "Id": "a4d878dd13af4b2b9a4c3f1399e1bb7b",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "79/beforeEndRound/93059309",
+        "priorMove": 199,
+        "move": 204,
+        "priorTarget": "playCards|99769903||endRound_button|宣告此轮结束 (\"最后机会\")|ssp-card-11:false|ssp-card-45:false|ssp-card-53:false|ssp-card-51:false|ssp-card-30:false|46|1|1|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:40+08:00",
+      "decision": "确认本轮得分",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:13.2358084+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 199
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:48.5828331+00:00",
+        "Id": "9d085c56684d463995090d3e5942343e",
+        "priorPhase": "79/beforeEndRound/93059309",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 204,
+        "move": 208,
+        "priorTarget": "beforeEndRound|93059309|||我确认完了|44|2|1|7"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:48+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:40.4300289+00:00",
+        "phase": "79/beforeEndRound/93059309",
+        "move": 204
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:49.4892257+00:00",
+        "Id": "285c9d60934a497e9810632da057304d",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 208,
+        "move": 209,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||56|0|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:49+08:00",
+      "decision": "选择保留绿色螃蟹",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:48.5828331+00:00",
+        "phase": "20/takeCards/99769903",
+        "move": 208
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:51.2974347+00:00",
+        "Id": "565be5d51aba4e11935a26f556a5f406",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 209,
+        "move": 210,
+        "priorTarget": "chooseCard|99769903||ssp-card-19||54|0|1|0|ssp-card-19|ssp-card-33"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:51+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:49.4892257+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 209
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:23:52.201209+00:00",
+        "Id": "b3ef165834ab4af686a6ea6a169e2275",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 210,
+        "move": 211,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-19:false|54|1|1|0"
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:58+08:00",
+      "decision": "从弃牌堆2拿取深蓝色螃蟹",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:52.201209+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 211
+      }
+    },
+    {
+      "at": "2026-11-06T13:23:59+08:00",
+      "decision": "选中深蓝色螃蟹用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:52.201209+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 211
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:00+08:00",
+      "decision": "选中绿色螃蟹用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:59.4560879+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 216
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:01+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:59.4560879+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 216
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:03.0780996+00:00",
+        "Id": "343850d6558b4b02b686eeff4893067c",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "45/chooseDiscardPile/99769903",
+        "priorMove": 216,
+        "move": 217,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-13:true|ssp-card-19:true|52|1|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:03+08:00",
+      "decision": "发动螃蟹效果",
+      "lastObservedState": {
+        "at": "2026-11-06T05:23:59.4560879+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 216
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:04+08:00",
+      "decision": "从弃牌堆取牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:03.985177+00:00",
+        "phase": "46/chooseDiscardCard/99769903",
+        "move": 218
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:05+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:03.985177+00:00",
+        "phase": "46/chooseDiscardCard/99769903",
+        "move": 218
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:06.7128502+00:00",
+        "Id": "48e74a093a534184b98ec48f6c48d960",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 219,
+        "move": 220,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-33:false|52|0|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:13+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:06.7128502+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 220
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:13.9502166+00:00",
+        "Id": "767ea332322d458ea4e28288dbaeb0a5",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 223,
+        "move": 224,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-33:false|50|1|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:13+08:00",
+      "decision": "选择保留浅蓝色小船",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:06.7128502+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 220
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:14.8556943+00:00",
+        "Id": "08ceb629433f48dd9e56e14330246f43",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 224,
+        "move": 225,
+        "priorTarget": "chooseCard|99769903||ssp-card-55||ssp-card-33:false|48|1|1|1|ssp-card-55|ssp-card-42"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:14+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:13.9502166+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 224
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:16.6814043+00:00",
+        "Id": "2dd98a380ba740a7978dd091dcbcdd51",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 225,
+        "move": 226,
+        "priorTarget": "putDiscardPile|99769903||discard1|1|ssp-card-55:false|ssp-card-33:false|48|1|1|1|ssp-card-42"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:16+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:14.8556943+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 225
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:17.5823349+00:00",
+        "Id": "8e50508abeb24fff886a99d0f6691b04",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 226,
+        "move": 227,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-55:false|ssp-card-33:false|48|2|1|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:27+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:17.5823349+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 227
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:28.4638985+00:00",
+        "Id": "6a5c5ee288cf4c8893eede9c82bc2256",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 231,
+        "move": 232,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-55:false|ssp-card-33:false|46|2|2|1"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:28+08:00",
+      "decision": "选择保留灰色贝壳",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:17.5823349+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 227
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:30.2664591+00:00",
+        "Id": "7670ee169ee44120b4aeac80c7585512",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 232,
+        "move": 233,
+        "priorTarget": "chooseCard|99769903||ssp-card-24||ssp-card-55:false|ssp-card-33:false|44|2|2|1|ssp-card-24|ssp-card-27"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:30+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:28.4638985+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 232
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:32.086702+00:00",
+        "Id": "70c8a95cafd14c04a6b8e1048a6cc03b",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 233,
+        "move": 234,
+        "priorTarget": "putDiscardPile|99769903||discard1|2|ssp-card-55:false|ssp-card-33:false|ssp-card-24:false|44|2|2|3|ssp-card-27"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:32+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:30.2664591+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 233
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:32.9816994+00:00",
+        "Id": "8555b20c93f04288889b3d7148d8a708",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 234,
+        "move": 235,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-55:false|ssp-card-33:false|ssp-card-24:false|44|3|2|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:41+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:32.9816994+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 235
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:42.0595005+00:00",
+        "Id": "0813d0a2a48a4f31a9193cdedb263c1f",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 238,
+        "move": 239,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-55:false|ssp-card-33:false|ssp-card-24:false|43|3|1|3"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:42+08:00",
+      "decision": "选择保留浅蓝色小船",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:32.9816994+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 235
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:42.966112+00:00",
+        "Id": "a0041d1960d44338acac0c2375650d52",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 239,
+        "move": 240,
+        "priorTarget": "chooseCard|99769903||ssp-card-43||ssp-card-55:false|ssp-card-33:false|ssp-card-24:false|41|3|1|3|ssp-card-54|ssp-card-43"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:42+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:32.9816994+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 235
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:43.8759723+00:00",
+        "Id": "ca21c1387a544d4586031f73aa7a1dc6",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 240,
+        "move": 241,
+        "priorTarget": "putDiscardPile|99769903||discard1|3|ssp-card-55:false|ssp-card-43:false|ssp-card-33:false|ssp-card-24:false|41|3|1|3|ssp-card-54"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:43+08:00",
+      "decision": "选中浅蓝色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:42.966112+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 240
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:44+08:00",
+      "decision": "选中浅蓝色小船用于配对",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:43.8759723+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 241
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:45+08:00",
+      "decision": "打出选中的组合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:43.8759723+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 241
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:47.5061495+00:00",
+        "Id": "0f459737a0b04205b7c8ba66bc2fe735",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/99769903",
+        "priorMove": 241,
+        "move": 242,
+        "priorTarget": "playCards|99769903||playCards_button|打出选择的卡|ssp-card-55:true|ssp-card-43:true|ssp-card-33:false|ssp-card-24:false|41|4|1|4"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:47+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:43.8759723+00:00",
+        "phase": "40/playCards/99769903",
+        "move": 241
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:48.4155545+00:00",
+        "Id": "8c20c54dc7224fb5920940a0f306ea37",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 242,
+        "move": 243,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-33:false|ssp-card-24:false|41|4|1|4"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:48+08:00",
+      "decision": "选择保留紫色鲨鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:47.5061495+00:00",
+        "phase": "20/takeCards/99769903",
+        "move": 242
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:50.2274575+00:00",
+        "Id": "5bc037f1a6244bd689c97ef8d0e3b0ea",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "35/putDiscardPile/99769903",
+        "priorMove": 243,
+        "move": 244,
+        "priorTarget": "chooseCard|99769903||ssp-card-31||ssp-card-33:false|ssp-card-24:false|39|4|1|4|ssp-card-52|ssp-card-31"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:50+08:00",
+      "decision": "把剩余的牌放入弃牌堆1",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:48.4155545+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 243
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:52.0298277+00:00",
+        "Id": "59258f800c08460b921a1ce0685786a6",
+        "priorPhase": "35/putDiscardPile/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 244,
+        "move": 245,
+        "priorTarget": "putDiscardPile|99769903||discard1|4|ssp-card-31:false|ssp-card-33:false|ssp-card-24:false|39|4|1|4|ssp-card-52"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:52+08:00",
+      "decision": "结束本回合",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:50.2274575+00:00",
+        "phase": "35/putDiscardPile/99769903",
+        "move": 244
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:52.9338083+00:00",
+        "Id": "cbd2f6d4312147a8a11b455db2c75906",
+        "priorPhase": "40/playCards/99769903",
+        "phase": "20/takeCards/93059309",
+        "priorMove": 245,
+        "move": 246,
+        "priorTarget": "playCards|99769903|||结束回合|ssp-card-31:false|ssp-card-33:false|ssp-card-24:false|39|5|1|4"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:56+08:00",
+      "decision": "从牌库抽牌",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:52.9338083+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 246
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:57.4757817+00:00",
+        "Id": "cbe545e4c7254b4bb9c7ade1eacb9bd6",
+        "priorPhase": "20/takeCards/99769903",
+        "phase": "30/chooseCard/99769903",
+        "priorMove": 248,
+        "move": 249,
+        "priorTarget": "takeCards|99769903||ssp-card-ssp-card-deck-fake-top-card||ssp-card-31:false|ssp-card-33:false|ssp-card-24:false|39|5|0|4"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:57+08:00",
+      "decision": "选择保留白色美人鱼",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:52.9338083+00:00",
+        "phase": "20/takeCards/93059309",
+        "move": 246
+      },
+      "matchingProgress": {
+        "at": "2026-11-06T05:24:59.2849302+00:00",
+        "Id": "e3e920fb269e45a28820ba9db2f82b00",
+        "priorPhase": "30/chooseCard/99769903",
+        "phase": "40/playCards/99769903",
+        "priorMove": 249,
+        "move": 250,
+        "priorTarget": "chooseCard|99769903||ssp-card-25||ssp-card-31:false|ssp-card-33:false|ssp-card-24:false|37|5|0|4|ssp-card-45|ssp-card-25"
+      }
+    },
+    {
+      "at": "2026-11-06T13:24:59+08:00",
+      "decision": "宣布最后机会",
+      "lastObservedState": {
+        "at": "2026-11-06T05:24:57.4757817+00:00",
+        "phase": "30/chooseCard/99769903",
+        "move": 249
+      }
+    }
+  ],
+  "seats": [
+    {
+      "id": "99769903",
+      "name": "bke780",
+      "rank": 2,
+      "score": 38
+    },
+    {
+      "id": "93059309",
+      "name": "purplewitch14541",
+      "rank": 1,
+      "score": 40
+    }
+  ],
+  "publicResult": {
+    "table": "943509022",
+    "url": "https://boardgamearena.com/table?table=943509022",
+    "retrievedAt": "2026-11-06T05:32:04.304074+00:00",
+    "officialStatus": "finished",
+    "cancelled": "0",
+    "endReason": "normal_end",
+    "players": [
+      {
+        "id": "93059309",
+        "name": "purplewitch14541",
+        "rank": 1,
+        "score": 40,
+        "isAi": "0"
+      },
+      {
+        "id": "99769903",
+        "name": "bke780",
+        "rank": 2,
+        "score": 38,
+        "isAi": "0"
+      }
+    ],
+    "tableInfo": {
+      "gamestart": "1793942220",
+      "min_player": "2",
+      "max_player": "2",
+      "current_player_nbr": null,
+      "current_present_player_nbr": null
+    }
+  },
+  "confirmedProgressRows": 147,
+  "exclusionReasons": []
+}

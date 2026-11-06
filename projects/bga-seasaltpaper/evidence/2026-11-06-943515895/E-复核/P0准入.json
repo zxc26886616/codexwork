@@ -1,0 +1,1252 @@
+{
+  "pin": "C0486F8268849E3000800F45EEEE28C1339F6E8234560D4D96C43329ABC772B9",
+  "total": 75,
+  "passed": 75,
+  "source": {
+    "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/75项汇总.json",
+    "sha256": "BFAF399FF7C0B6827279CBC30396F1F7D78D524BAA52D44B185ABB4BC27A643B"
+  },
+  "checks": [
+    {
+      "group": "原37",
+      "case": "background-check",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/background-check/background-check/out.txt",
+        "sha256": "B00CD67F0E4845DD571CB4DCE0DFADCC237ACA155AD14F707729E30BD837DADF"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/background-check/background-check/process.json",
+          "sha256": "3563C7FBC569921C7DE9480836DA10F3D8DF9FEC0472C3F014ED64F27148F7E2"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "clock-deadline",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/clock-deadline/clock-deadline/out.txt",
+        "sha256": "9C72476FF43812537942A55DE2828528160CE1CCCCE18F78B6E6927F4D96E8E3"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/clock-deadline/clock-deadline/process.json",
+          "sha256": "8AE77EF2FA502F498E19B22504C57B147C6F97AD7FAE3B790489FD75D294D570"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-crash",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-crash/recovery-crash/out.txt",
+        "sha256": "FDAFEDE1CC4B87C1175A02B6F05FF809D038EADCBBDD71105B408503BE90914A"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-crash/recovery-crash/process.json",
+          "sha256": "A6CCD24AB35651C1C9DBB4015FDA96B537480C905EED1BCEC3A80E47B0F30E4C"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-crash/recovery-crash/SeaSalt-recovery-kle34bb5.gbh/trace.txt",
+          "sha256": "4E4169B01A73076B4FE5C6929905EDAAEEF5445E0EE8E7476BCF76903D7347D0"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-urgent-hang",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-urgent-hang/recovery-urgent-hang/out.txt",
+        "sha256": "AF979822DD38F80DF2149D9C251B9DDC0F19BBCE503519655E0CD47651FA3A58"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-urgent-hang/recovery-urgent-hang/process.json",
+          "sha256": "5F5E63F1ACA09EB8813C9F773851D463268B40DE7C96931C8C15EC78E422B8F7"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-urgent-hang/recovery-urgent-hang/SeaSalt-recovery-ayugnpdk.w0a/trace.txt",
+          "sha256": "46CB0741C01B0E5F32FB3C2AE1FB574823801955A09B63B01C5D3F4AB0B70AB7"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-offline",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-offline/recovery-offline/out.txt",
+        "sha256": "5DEA8BE2285B46DCD0889C70AB536CE7C7941EA099A526FAFBEEFA90E6DB3927"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-offline/recovery-offline/process.json",
+          "sha256": "BC5F8B05C368609799EF399B0F45885D9C228D69D49FD0797D4C500FB9B16C09"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-offline/recovery-offline/SeaSalt-recovery-iva020ut.uxo/trace.txt",
+          "sha256": "9F84E01388C62D32B422DEBDBB38FBC2DFCA64E75558B15CCC190DBD8127DB0D"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-hang",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-hang/recovery-hang/out.txt",
+        "sha256": "9D19B94B78DCEF413C6222120CE03B9C6A15EF675124C624C9815B215A3BACCA"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-hang/recovery-hang/process.json",
+          "sha256": "D931660B09DB5C58510ABAEFBA38657D69EDE4DD0CFB996552C84D651B3E0CE2"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-hang/recovery-hang/SeaSalt-recovery-jotdg1ad.hcl/trace.txt",
+          "sha256": "977299F5F83741FCF77DBBD12E060B82942E49A8F42D373B42898C811896A705"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-unknown",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-unknown/recovery-unknown/out.txt",
+        "sha256": "0936497E0D9261CB37A0B9B6E096AAF06878E086ED3E8BEEE8D7A2311D76E5DB"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-unknown/recovery-unknown/process.json",
+          "sha256": "9F78A1BDD88256E3A1AA5C62124DC791BA554B192C4870A10D6A010183ADFFC7"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-unknown/recovery-unknown/SeaSalt-recovery-lykaicuh.omx/trace.txt",
+          "sha256": "FD27F80A464ABB54E8235FE116FF921BABE561087448EFE68AA2D68A133970E5"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-lost",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-lost/recovery-lost/out.txt",
+        "sha256": "840EF2D2019EFEB931CB4EEE4CCE6E6E23A2E24B90ED5908119F958DF1833FFE"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-lost/recovery-lost/process.json",
+          "sha256": "AB4FBEED61AAA1B62DDE0EFFF5156992EDB4992397D04C8D987E835212341741"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-lost/recovery-lost/SeaSalt-recovery-f0rtqeme.3yn/trace.txt",
+          "sha256": "1C96441318110D94BA3E183258DC6C5646528AA9B9CC01CAB85D79ABB9688C06"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-before-send",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-before-send/recovery-before-send/out.txt",
+        "sha256": "105B1594423358BE8AEC3C7E3367B2AAF45663A89DCCC53F9FC4D77C685F4BEA"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-before-send/recovery-before-send/process.json",
+          "sha256": "1340FD4C62823B9CEF3BB07ECB0181E74C8300784AD26B7EAAED3B3C8C978F7D"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-before-send/recovery-before-send/SeaSalt-recovery-i10zqv4z.0sz/trace.txt",
+          "sha256": "1D6907288DDF0C34B243381EDA622D15EBD1AD8FD9681B865D28D344506D7CA6"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-http-error",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-http-error/recovery-http-error/out.txt",
+        "sha256": "7887D9DE7D42CC1595EC532782242B57A65709184AB229EBCDF981F6F94BFD39"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-http-error/recovery-http-error/process.json",
+          "sha256": "AA0D88CF165E0980D2821B965C83DB79AA98FAD4E5E64EEC5EA0E7D812894664"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-http-error/recovery-http-error/SeaSalt-recovery-tnh5zgnv.xti/trace.txt",
+          "sha256": "AFA7EB06A8282F4F56393659FDAA8F884FA2A4BF09862DF211D60088E0E95639"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-preflight",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-preflight/penalty-preflight/out.txt",
+        "sha256": "902FE11EAA5A99CA24C98BCAE0DEEEBFABEE94BA63CC934CFA71B76599BD6A40"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-preflight/penalty-preflight/process.json",
+          "sha256": "1955A61395531235156390F1644978E788381CADE8F53DB629DEF889152788CD"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-inflight-pending",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-inflight-pending/penalty-inflight-pending/out.txt",
+        "sha256": "EAF8B5E9C5A573AC611A624C58E1FE13D4C0037BC928BFC24606C0319E77F090"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-inflight-pending/penalty-inflight-pending/process.json",
+          "sha256": "56B1E9E44C5C83EEAA4B3E779351F4498CE60C18EFAA937C6962973E86536EC4"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-inflight-offer",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-inflight-offer/penalty-inflight-offer/out.txt",
+        "sha256": "A53FDB47B7867228E81B19E39834378B4195A32445A5A67B7E76D8A1338904F2"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-inflight-offer/penalty-inflight-offer/process.json",
+          "sha256": "7CE23F096AE84D3C6D89A354137961E598B13799B6B1FDD2E767260182633598"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-inflight-table",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-inflight-table/penalty-inflight-table/out.txt",
+        "sha256": "573ECF2CE604546ED1063B65EBED293B806AEE122B6BF2DCEF84AE362C07D00E"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-inflight-table/penalty-inflight-table/process.json",
+          "sha256": "403278D6E970B1982915C58ECA8344C1EF41174188DAB3A8199444529EEB7691"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-inflight-pending-lock",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-inflight-pending-lock/penalty-inflight-pending-lock/out.txt",
+        "sha256": "56781FF08EA378C6CFB324F965AE04F0B1F9A92597470C645DE3A61E6CE2A53D"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-inflight-pending-lock/penalty-inflight-pending-lock/process.json",
+          "sha256": "92ABCAAEFEDA946E2AEF0512312C6888127808575064CF98B360525A8B108439"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-seat-restore",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-seat-restore/penalty-seat-restore/out.txt",
+        "sha256": "56FD58E0B4DCFC12CDB96AD6E53B2A8720FE2B6E9CB507B1138DC36196CE4CDD"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-seat-restore/penalty-seat-restore/process.json",
+          "sha256": "182E5F5F0C4E649B18D341D29DDAD7D4444EFE44FCD37DCB29812BBB7380AE37"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-seat-blocked",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-seat-blocked/penalty-seat-blocked/out.txt",
+        "sha256": "00C8DCB82E951DC603B36616A74829B9AC8EB690D66079428CEEA64AEA911722"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-seat-blocked/penalty-seat-blocked/process.json",
+          "sha256": "E7A549293937538F9E5B9FB98CD93D92C1E49065402789322313F9A8F480F42A"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-seat-revoked",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-seat-revoked/penalty-seat-revoked/out.txt",
+        "sha256": "E42895190842624B46234BCF87EDC39745EB965D2BC15947C8B85D7DC6D56C3F"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-seat-revoked/penalty-seat-revoked/process.json",
+          "sha256": "9F1030CBB0062390EEBA6B88F955884024CFCF6377D6E2E453D979FDBCE2040E"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "penalty-seat-interleaved",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-seat-interleaved/penalty-seat-interleaved/out.txt",
+        "sha256": "F351E0BE3E07435C5C50045A4ECC03F38B2785DCB2DE48BCBE9C2BDD551E5A1C"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/penalty-seat-interleaved/penalty-seat-interleaved/process.json",
+          "sha256": "97E75FB6AB647403889C32AAEA5F20464F610768CC668BB39EB03F3005CDB0F1"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "recovery-long-offline",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-long-offline/recovery-long-offline/out.txt",
+        "sha256": "B6352864F248D95EB0E94A7D529DAE896EF857D2C83EDB092B753470A0E2E6B3"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-long-offline/recovery-long-offline/process.json",
+          "sha256": "D68F144E9687137F5D5E51EE4BA045CACDE9FD561BCAD672D0E7195F3CF33D08"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/recovery-long-offline/recovery-long-offline/SeaSalt-recovery-vb13vuwp.etg/trace.txt",
+          "sha256": "567DCE0D80C9E22F71DC78A207E738F2539BB0A9ADCF792A1B49A4EC63EDA733"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-lost",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-lost/evidence/server.jsonl",
+        "sha256": "CFE8749B441A7596A4D93E0C1F42710E1F1788796CEA46AEAC52B8B3DD90C348"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-lost/进程.out",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-same",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-same/evidence/server.jsonl",
+        "sha256": "9684DDDE893954CAE3B7ACB96ED4C151D5FC8D5A6FFDDF581F8C6DAD95E2C3C5"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-same/进程.out",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-stop",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-stop/evidence/server.jsonl",
+        "sha256": "262508F0E6EFCAD530631EA2EA2CE3A7BCCD3D0F807C7542C9E9DB92D89073A7"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-stop/进程.out",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-offline",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-offline/evidence/server.jsonl",
+        "sha256": "9BE6361B7E6232FC3844FDFBF43C967D7C84704B88EDF3084CEE952EE3E13453"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-offline/进程.out",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-outage4s",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-outage4s/evidence/server.jsonl",
+        "sha256": "031A207D6004EF3899C316079C195D907E711FBEC2A7D0D846196E5BAFC305CC"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-outage4s/进程.out",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-unknown-end",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-unknown-end/evidence/server.jsonl",
+        "sha256": "625AC9CDF86E32B38184AB9E05FD9926B4FC0AA89B2F1856EB6D74953FE9FB75"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-unknown-end/进程.out",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-undelivered",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-undelivered/evidence/server.jsonl",
+        "sha256": "2B797A0ADD8003048040B167CAD1B22700E76C4B92FAB9E1046A6BF9F84C9B08"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-undelivered/进程.out",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-hang",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-hang/evidence/server.jsonl",
+        "sha256": "E07F3C2592261DB01371B4112AB669C480308789BF6A9399DB461636E562252A"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-hang/进程.out",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "locked-low",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/locked-low/evidence/result.json",
+        "sha256": "FAE425CD09A5450ECE49593FA3F0546BB46408F4435D8966B2A1F4BDB5A03550"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/locked-low/evidence/server.jsonl",
+          "sha256": "189EFE06FAD4F5648A9BBE61145EEE69515B63966FEDC8B597541F8A50600885"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "locked-undelivered",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/locked-undelivered/evidence/result.json",
+        "sha256": "F894D62271316FE37A6E248D3356FD1A241601FF58F559860C759308C5FFE821"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/locked-undelivered/evidence/server.jsonl",
+          "sha256": "EC0D2F17427B71E056D47E03B3118452F2B5EB8E1EF2FA04F5238C8442C8EDAA"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "locked-unknown",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/locked-unknown/evidence/result.json",
+        "sha256": "6631A902F772450CDE782D95EA565E19F1EB9424C61D2B01824E4EA7B41DFF0B"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/locked-unknown/evidence/server.jsonl",
+          "sha256": "A135B49158D641D4AB79F734A8970EEDF77EDF6A99E1091F4BB578F6EA4D7FF0"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "clock-missing",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/clock-missing/evidence/result.json",
+        "sha256": "68A3A05F7EDAFE435D76D1ECDBAC7EA1BE78ABB137603688A115D24A951E9F8F"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/clock-missing/evidence/server.jsonl",
+          "sha256": "48632AD57C54A4C7A9A6FD52CED0835EF4404EC2ABE0F4E230FC6F25F555EC6F"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "clock-hidden",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/clock-hidden/evidence/result.json",
+        "sha256": "B66F058094881CD01D74BA0579AADE1DFE22269CF35C58160D6A89B324804837"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/clock-hidden/evidence/server.jsonl",
+          "sha256": "CAE3BC4DD967ECED91EA227F2F8439DEF5F9C04AF859A113BC0D9E24926E109A"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "clock-invalid",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/clock-invalid/evidence/result.json",
+        "sha256": "1E3C4454B8B93B93E934C9D8CFD11A775A13C9410F2AE17FD8E19320CF54CB4C"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/clock-invalid/evidence/server.jsonl",
+          "sha256": "DAE644A9C752DBCF7E859B7E31A959533E8AD8D7A5F05F2892621D039086BAEC"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "client-state",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/client-state/evidence/result.json",
+        "sha256": "7460E02E7A7FA8C28FDF87D52FA0AF8580F89E03208F4B0C2AB140D632811584"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/client-state/evidence/server.jsonl",
+          "sha256": "8597BCB111BA96E2815982243CAFFEA48F8391846CCBE210297816EF8B47790D"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "animation-high",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/animation-high/evidence/result.json",
+        "sha256": "6A23F56C3833DA8AF231618F6E5CB7795B5F6254F6E1D01597E17614F85EE796"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/animation-high/evidence/server.jsonl",
+          "sha256": "51ED52DE5F16167D7CC6DCCD8409AE665202A7A2FC0A1A4703DAA0396396E2F2"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "animation-low",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/animation-low/evidence/result.json",
+        "sha256": "EB53928068061BAC518AF38394BEE3669110C5EE70EEF9B11AA336F1600AB35D"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/animation-low/evidence/server.jsonl",
+          "sha256": "1B81DF7B75CECE43F0091B7CE3969D645E5BF638D89B25B1A4648006A21AF9D3"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "opponent-clock",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/opponent-clock/evidence/result.json",
+        "sha256": "64A4289629FF19CB5D2271E7D3B529870FE3BED7631E540E556806E161E901B3"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/opponent-clock/evidence/server.jsonl",
+          "sha256": "04E2BDF3C4889B15802E9D1EBA85A6DDB90F5486912ECBFE6B666C96560989AD"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "opponent-turn",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/opponent-turn/evidence/result.json",
+        "sha256": "43FA6F645E68DE1713A3CFCD37C73F5236A630EA63E10B02B66149A2BA842180"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/opponent-turn/evidence/server.jsonl",
+          "sha256": "3CFB4733619D8CF5F51B0B62030B2F84BBF29E6F8EC25671FB24297D8AC0C681"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "connection-offline",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/connection-offline/evidence/result.json",
+        "sha256": "53B4A1AC613DE8AF05282FF23C0E15EA4DB02D634C0E1FDE7D7C0DA7309C3EAC"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/connection-offline/evidence/server.jsonl",
+          "sha256": "B8A26234E444360A20EE0C0A4FC39CAC86D34D992CA33959F335C38A973AB315"
+        }
+      ]
+    },
+    {
+      "group": "原13",
+      "case": "threshold-crossing",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/threshold-crossing/evidence/result.json",
+        "sha256": "B04E57D9B1486A2BBCF5440F5EE4B0983AE44968702DEE1C6A0F545346A68D67"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原13/threshold-crossing/evidence/server.jsonl",
+          "sha256": "77233DC29A497C82116F55BF010E06AF7F37A7A9CE6CB22744AA9D40514B6570"
+        }
+      ]
+    },
+    {
+      "group": "分桌",
+      "case": "overlay-play",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/分桌/overlay-play/evidence/result.json",
+        "sha256": "A4EDB360FA65F4EDE2AD01FFF476724F1A8E4DE2D30F96457812B1D582B23263"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/分桌/overlay-play/evidence/server.jsonl",
+          "sha256": "FBC83DBC3DECE6B827171E19D772F2FBE27BA6AB18430ABE6E7AC5DDE85C803C"
+        }
+      ]
+    },
+    {
+      "group": "分桌",
+      "case": "authoritative-play",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/分桌/authoritative-play/evidence/result.json",
+        "sha256": "50FCCA57392D5FA9661C2763F23C540BEE60CFC45810360F7E278B0E6A9F846B"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/分桌/authoritative-play/evidence/server.jsonl",
+          "sha256": "A0B60FD76C8DAC6C2E4D6D71389DBE437287B92139A922C037E90CE6D0AFFB31"
+        }
+      ]
+    },
+    {
+      "group": "分桌",
+      "case": "ready-125s",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/分桌/ready-125s/evidence/result.json",
+        "sha256": "534FE444AFEB55828716CFD80358358FE992A30FC725B51E09B296F655E7B091"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/分桌/ready-125s/evidence/server.jsonl",
+          "sha256": "7FF391BBCA3B8E2D14C862A39604F5C20DC934DC65440A87792ED95840CC249D"
+        }
+      ]
+    },
+    {
+      "group": "分桌",
+      "case": "offered-void",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/分桌/offered-void/evidence/result.json",
+        "sha256": "DD0BCEB99F1E4AA174DE84E429F45581C5D38B4A19646800A26EC488C8646742"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/分桌/offered-void/evidence/server.jsonl",
+          "sha256": "DF273A0BF5F965C9248EBF7D1846537B686DBA5E66290B0E9F5F33E7B2296DAD"
+        }
+      ]
+    },
+    {
+      "group": "救场",
+      "case": "unarmed",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/救场/unarmed/evidence/result.json",
+        "sha256": "BE58EA8278EA1F2E788820D63550518E751B00B6B1C238406B1324AD314AFDF6"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/救场/unarmed/evidence/server.jsonl",
+          "sha256": "C281D5BE47A3342FC61FFA8F7844E48D7FC05AD3AF4E1E2C032613FB8C5EF68F"
+        }
+      ]
+    },
+    {
+      "group": "救场",
+      "case": "pending",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/救场/pending/evidence/result.json",
+        "sha256": "8091B5F573D7B055C2D240829DABDFA443496D6C81A526617C5F5EF43A66FEAC"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/救场/pending/evidence/server.jsonl",
+          "sha256": "B4AB69025D59671FEE6AEE19CBE13747878C068A78143B5CB13C07ED967BD442"
+        }
+      ]
+    },
+    {
+      "group": "救场",
+      "case": "wrong-seat",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/救场/wrong-seat/evidence/result.json",
+        "sha256": "A6ED4EBA9D41FF920959C59F9692C859516C2F3D889EFE722168BF6D798C91E0"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/救场/wrong-seat/evidence/server.jsonl",
+          "sha256": "505C526BFD91DED53E765CC00FF325C531AAEB364F41959E256B5331E9E2C68D"
+        }
+      ]
+    },
+    {
+      "group": "预接席",
+      "case": "prearm",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/预接席/prearm/evidence/result.json",
+        "sha256": "6C03AA309EEB5AB7D2559C486360BB5A16702F30930C5BA16C0CCC2F9B085E82"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/预接席/prearm/evidence/server.jsonl",
+          "sha256": "35CC7B9A8B1E22EDDCA710771031F938DB41545A70442268B5012D721697E26A"
+        }
+      ]
+    },
+    {
+      "group": "receipt-wire-v2",
+      "case": "end-opponent",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/receipt-wire-v2/end-opponent/evidence/result.json",
+        "sha256": "50EB7C3BDBFB813D372BC989F8E10CC4CE7D205330805854DD6D51B99C8DA6E0"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/receipt-wire-v2/end-opponent/evidence/server.jsonl",
+          "sha256": "8468EECDED4EC4FDAB5F4406E9CFED006651F45DD97EB99BD5755731AF24D303"
+        }
+      ]
+    },
+    {
+      "group": "receipt-wire-v2",
+      "case": "draw-locked",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/receipt-wire-v2/draw-locked/evidence/result.json",
+        "sha256": "1260B3682CB8B496EDAE3A4961D4A557BACB483FECAFAB6CA9B7BF61A215D8A1"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/receipt-wire-v2/draw-locked/evidence/server.jsonl",
+          "sha256": "F41F8C6963EF56E3BA97DDC66A95E29523769734B9A3300F69EA6C50CDBDBEB0"
+        }
+      ]
+    },
+    {
+      "group": "receipt-wire-v2",
+      "case": "same-unknown",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/receipt-wire-v2/same-unknown/evidence/result.json",
+        "sha256": "75B1EA92BEB1C0A91017A339519D804212215398BF3C239F84973442826B5377"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/receipt-wire-v2/same-unknown/evidence/server.jsonl",
+          "sha256": "C1F184ED6A0F76203FD3F24D0FD63E9D92E69A5DFB950A763CAEF0F03771EADB"
+        }
+      ]
+    },
+    {
+      "group": "receipt-wire-v2",
+      "case": "forever-regressed",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/receipt-wire-v2/forever-regressed/evidence/result.json",
+        "sha256": "DCBD5F35AA5BE1BB9F7486EF24A72975C52F55CBBDA8A7848DD58F334EDFBEFA"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/receipt-wire-v2/forever-regressed/evidence/server.jsonl",
+          "sha256": "61B9D8B2EA9747D6A013776BF0C6EB6CC54F848DEF6C8ADA5B6DE757DFD04BB0"
+        }
+      ]
+    },
+    {
+      "group": "得分确认三项",
+      "case": "own",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/得分确认三项/own/evidence/result.json",
+        "sha256": "2013894D09C734FB6305F9579CACA67CB64BD51281F87002778B7964DB6210F0"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/得分确认三项/own/evidence/server.jsonl",
+          "sha256": "382DEF01657FBF1EF7CFB3D8911A6A1CB4833AC5AC3DFF26947D213EEB2FF5D0"
+        }
+      ]
+    },
+    {
+      "group": "得分确认三项",
+      "case": "wrong-table",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/得分确认三项/wrong-table/evidence/result.json",
+        "sha256": "839B5FBB732115BE35024884052247ED250FC424292498CF40DE1A2B2984FDCB"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/得分确认三项/wrong-table/evidence/server.jsonl",
+          "sha256": "6CB59380740A8DE12DF3A0C4A70AE462A3A4F8DCED58E69452BA702C82D6295A"
+        }
+      ]
+    },
+    {
+      "group": "得分确认三项",
+      "case": "not-ours",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/得分确认三项/not-ours/evidence/result.json",
+        "sha256": "892F085EB4F5A0A7EA305C13B3717200DEA62847CC77A5D79651606085E11383"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/得分确认三项/not-ours/evidence/server.jsonl",
+          "sha256": "1F726FBD0477478EDE50672ABBBA83A546BDD2E648FA9998A6E2FF1DF950DAF1"
+        }
+      ]
+    },
+    {
+      "group": "得分回执独立停排验证",
+      "case": "own",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/得分回执独立停排验证/own/evidence/result.json",
+        "sha256": "8CFE416B72E197E48210246982C48F09147989A55778CB6BD4281762066CF0A6"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/得分回执独立停排验证/own/evidence/server.jsonl",
+          "sha256": "A00B33DE3910C3A15FA0BDC5AA1C168F78C31C7BEFE2ED8A6D87E6CFDEE6C879"
+        }
+      ]
+    },
+    {
+      "group": "原桌抽牌回退重放",
+      "case": "accepted",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原桌抽牌回退重放/accepted/evidence/result.json",
+        "sha256": "E914102E84CC766AD7783FB64F7C19238FA6F5D6384752AB58E08A4DCCF929BE"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原桌抽牌回退重放/accepted/evidence/server.jsonl",
+          "sha256": "BCA0779F69C39C7A1BFC08CC7B973C394D0F7529DB94FF284BD4E1180E25A21B"
+        }
+      ]
+    },
+    {
+      "group": "原桌抽牌回退重放",
+      "case": "missing",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原桌抽牌回退重放/missing/evidence/result.json",
+        "sha256": "32487E582159C73592B80906B1445E22742F1F561296648D31648582C59607C9"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原桌抽牌回退重放/missing/evidence/server.jsonl",
+          "sha256": "23BA3B75C342C18054936C90C58CD8CEEC32D73D25338C9EC1F420FD0BB54CDE"
+        }
+      ]
+    },
+    {
+      "group": "延迟选牌与无明牌接管",
+      "case": "late",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/延迟选牌与无明牌接管/late/evidence/result.json",
+        "sha256": "8F9FB65972BC012646AFBB025ADEF30DB76E0D73908293E2AC6239FB4BEC7D68"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/延迟选牌与无明牌接管/late/evidence/server.jsonl",
+          "sha256": "15F27B34F07D4676FB2555EF976F3C1369512D865446931DB3A1ACB429241A8B"
+        }
+      ]
+    },
+    {
+      "group": "延迟选牌与无明牌接管",
+      "case": "no-piles",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/延迟选牌与无明牌接管/no-piles/evidence/result.json",
+        "sha256": "617E4053075FEFDD6C684CB37FFDD30059B9B493C32C630CDD9823887B9C7801"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/延迟选牌与无明牌接管/no-piles/evidence/server.jsonl",
+          "sha256": "94C42C16A7C4F10F98BA07806D2611AB13DF76C826A55961A1273EFEB709DF5F"
+        }
+      ]
+    },
+    {
+      "group": "三桌连续验收",
+      "case": "three",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/三桌连续验收/three/evidence/result.json",
+        "sha256": "C096EF94A7B17FE6BE645943A6A7DEA8F885F7E04AAF630DEC72C1977DEAA806"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/三桌连续验收/three/evidence/server.jsonl",
+          "sha256": "0A6769BA91E090A884A7BF86880B60C11171A24595A73BA6EE0FE3754C24B1D6"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "stop-queue-check",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-queue-check/stop-queue-check/out.txt",
+        "sha256": "791AE6E9D8EE4A9710581A93A078071D59BD89968BF42505AB3C14C0C2B07B84"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-queue-check/stop-queue-check/process.json",
+          "sha256": "535042B9A15677CA33A016A03FA74B66B72400B0241EEA2963569206A5A21A9A"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-queue-check/stop-queue-check/result.json",
+          "sha256": "F03DC1A26D6C6C6E29860F99E3429D3A07A0DB53315CCD01913B245F991932EC"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-queue-check/stop-queue-check/scratch/SeaSalt-realtime-three-etqooocr.cr2/fixture-server.jsonl",
+          "sha256": "BE9D60A465EBD87F8CE113823F0034052E5E206D829B11DDA6EF8971D2C243C3"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "realtime-void",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/realtime-void/realtime-void/out.txt",
+        "sha256": "3C5C06C6C93E22133E020A68DA91EEAE4C63F59503320EE221E7E44FAF033929"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/realtime-void/realtime-void/process.json",
+          "sha256": "E82AA59B21CD8A91A8F26671CD03CE0F97B38CDC094AB11E955A4967072F54CB"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/realtime-void/realtime-void/result.json",
+          "sha256": "6B5D10A09EA5138D7361F45F4D1F2A0003D5CDA46FF2E72ACB5371934A10ED90"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/realtime-void/realtime-void/scratch/SeaSalt-realtime-three-r34jztam.mdp/fixture-server.jsonl",
+          "sha256": "8D1D43EB4FD1269129368984901D3F410FE7006946E61BF92DF92649D345BA5E"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "stop-inflight-check",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-inflight-check/stop-inflight-check/out.txt",
+        "sha256": "A3B765358915C36F73C1BA741802047A023DFD24C34B910AE71E8826BB7A82B0"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-inflight-check/stop-inflight-check/process.json",
+          "sha256": "1925A32D5440B76C605C6EBF0F171074650C95DF42C2DDFC527606C35DA2A1CC"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-inflight-check/stop-inflight-check/result.json",
+          "sha256": "18D56E3C4AE993DC3639F38FFD89BD6919C111A7C63CF11CE25A9BE966D25C5A"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-inflight-check/stop-inflight-check/scratch/SeaSalt-realtime-three-risufbiu.5nc/fixture-server.jsonl",
+          "sha256": "F60EB37BF31207684A3B81BAF38587B64E183B20F8FCFB26C5D8515DBB4F07D2"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "unknown-end-check",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/unknown-end-check/unknown-end-check/out.txt",
+        "sha256": "A01AE3CC37497C095B69B58713910388241402E204F63441197D09B42B18856F"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/unknown-end-check/unknown-end-check/process.json",
+          "sha256": "A2424D2ECC24ECA4FED2C7EC1283A89106F66E07ACC6B7B124DDF34E0289D955"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/unknown-end-check/unknown-end-check/result.json",
+          "sha256": "E1A6444BC4D8B17F361E3109F438EBEC6DE62BFD189F4957F742CD1EA28FC373"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/unknown-end-check/unknown-end-check/scratch/SeaSalt-realtime-three-h4siay0v.gf3/fixture-server.jsonl",
+          "sha256": "F77FF7C8203996A7350D4C4547B0619902B001E62D7399DF1E680EE8771B3751"
+        }
+      ]
+    },
+    {
+      "group": "终局",
+      "case": "wrong-ranking",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-ranking/wrong-ranking/out.txt",
+        "sha256": "3B945F6116FFFDDF88F9E45EE25BD7069D48448CA1FF267B3CB20D1CD020FFCE"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-ranking/wrong-ranking/process.json",
+          "sha256": "176798BD5717DA32CD66DEDA1833F1CD9E3B50A5B364625C2A44706AFBD90309"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-ranking/wrong-ranking/result.json",
+          "sha256": "EEE5B153F7891A29CC62F5BEBE93E1BD847B8A14131C96F0FACD35390119469A"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-ranking/wrong-ranking/scratch/SeaSalt-realtime-three-iazg33vv.uri/fixture-server.jsonl",
+          "sha256": "CDFFB6C3EFCAD2A39F1C7F19B6F23177E0994783870FE9388B558F3997844041"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "stop-unresolved-check",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-unresolved-check/stop-unresolved-check/out.txt",
+        "sha256": "8A5F4764AC749DF18253F6843A456EF0CAEB0EA96D5E0F8FE1B4309A8E58E2AD"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-unresolved-check/stop-unresolved-check/process.json",
+          "sha256": "26B5E88078883CC020F39101A03014351AF531481DD10A460E611143AEA6EBB2"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-unresolved-check/stop-unresolved-check/result.json",
+          "sha256": "B99AB71FB7E70F37D29B5E283BD7D8C84D057D5F174D93EFA194A3227CC18B9D"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/stop-unresolved-check/stop-unresolved-check/scratch/SeaSalt-realtime-three-jcnuaxmh.rcz/fixture-server.jsonl",
+          "sha256": "6537DA068A0E286EC2035BD29E05AAF67767766AEC99121C6541A608E7993D3A"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "realtime-three",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/realtime-three/realtime-three/out.txt",
+        "sha256": "9E546E25E73F4D238427982AFBEF955FB32E71E9C76F83724F87F2744A0FFFEC"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/realtime-three/realtime-three/process.json",
+          "sha256": "10303166C4177EBFC80F5B747C71800EC85292D5F02878D9E45D7890CFEACD00"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/realtime-three/realtime-three/result.json",
+          "sha256": "102B75D73077888ABA65716BB3E4BB245A660575688309398AAE06F0CB55B5A3"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/realtime-three/realtime-three/scratch/SeaSalt-realtime-three-az1uepqy.bez/fixture-server.jsonl",
+          "sha256": "7A6DA6F73F6F9AFA1A95FF7A21AA737382106F0817A8F3EFA867A6437C120DBF"
+        }
+      ]
+    },
+    {
+      "group": "终局",
+      "case": "missing-map",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/missing-map/missing-map/out.txt",
+        "sha256": "4D34E866F0820C66B5B88B157DE7416FF057AF336A047984372F315D4E389979"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/missing-map/missing-map/process.json",
+          "sha256": "933F8AB8BB19BCC749105F8284142E3654FD5DF88C4D7A18A726D4E6088AF83A"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/missing-map/missing-map/result.json",
+          "sha256": "66628B2B9DFC9FD413AA4C3D166CF2F2FAF5403D0E683B1E1F7E8A5F7D2FE697"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/missing-map/missing-map/scratch/SeaSalt-realtime-three-tpldp3ao.nm1/fixture-server.jsonl",
+          "sha256": "1979ED2578DF074D0704680F698554D6643B39775795D0DA21E6AD5031B3F6F2"
+        }
+      ]
+    },
+    {
+      "group": "终局",
+      "case": "wrong-map",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-map/wrong-map/out.txt",
+        "sha256": "355DF36E2BD488A1F29005BE80F9884760115921D2C3EF50910750E1C0220362"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-map/wrong-map/process.json",
+          "sha256": "6B7C0627726486DD8D96BAD11B2AE641D5A856B1DC16BF8011FA298096F1552A"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-map/wrong-map/result.json",
+          "sha256": "4C0EB1D4D3CD12735860F4B51BF108AE6A814BFB4D8AC9183E4EA4E95C25EFAB"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-map/wrong-map/scratch/SeaSalt-realtime-three-bfxosej1.0w5/fixture-server.jsonl",
+          "sha256": "3F9E81EFC178B257A1FA1D7E6E5F5E386F0E1D35B31C90F0A7AB0CF5156DDDC1"
+        }
+      ]
+    },
+    {
+      "group": "终局",
+      "case": "wrong-table",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-table/wrong-table/out.txt",
+        "sha256": "387B852B78BD6885858C8CC827CFD7F260D7A0FC0EAA33090B41C13E876A62BF"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-table/wrong-table/process.json",
+          "sha256": "F4A318CA7932275EDD34624937590AA21FE514D68F2AD91410EE38ADB9317EBC"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-table/wrong-table/result.json",
+          "sha256": "64E6CD8A347EA77E10D725496FBB6080CF736CCEED703538BB298F6D9205B7E6"
+        },
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/终局/wrong-table/wrong-table/scratch/SeaSalt-realtime-three-nurdeqvv.nq4/fixture-server.jsonl",
+          "sha256": "6279185CC849076DFF5DD9F2134747122D47F691D107D360F477446772457510"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-low",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-low/wire-low/result.json",
+        "sha256": "4425B40B23598BDA31FA59ED5AE805A5C9A19A27600BD5D3B578244F0F1C7500"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-low/wire-low/server.jsonl",
+          "sha256": "1BFB868DF078E776C626E70D21D82C07F6E2450F2410286EDB0795BEC9F91EC4"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-opponent",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-opponent/wire-opponent/result.json",
+        "sha256": "218BBC2D35D3B87BFB2846FB345F6A75DA1C3E3546733A6B4F7753283F58923B"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-opponent/wire-opponent/server.jsonl",
+          "sha256": "90ADDAD0EEACC91D02BD1D6E4C6897249006C091D89D796F835AD15DC0E3A32B"
+        }
+      ]
+    },
+    {
+      "group": "原37",
+      "case": "wire-disabled",
+      "passed": true,
+      "evidence": {
+        "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-disabled/wire-disabled/result.json",
+        "sha256": "E0760F29E1C7925262EDADC85C11806F0171685538F825A5FC57F1BFD759611E"
+      },
+      "support": [
+        {
+          "path": "evidence/2026-11-06-943500844/A-实测-bf8907fa7ce665f7/用例/原37/wire-disabled/wire-disabled/server.jsonl",
+          "sha256": "F8B3E9C0D4B836FCF21718D35658AEBB501774009B3EBE2FB084560F8C14E885"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DeskBin>$(MSBuildThisFileDirectory)..\..\..\..\dist\candidates\1.3.2-p0-94e8e0f906a9f466\bin</DeskBin>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.WebView2.Core"><HintPath>$(DeskBin)\Microsoft.Web.WebView2.Core.dll</HintPath></Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms"><HintPath>$(DeskBin)\Microsoft.Web.WebView2.WinForms.dll</HintPath></Reference>
+    <Content Include="$(DeskBin)\runtimes\win-x64\native\WebView2Loader.dll" Link="WebView2Loader.dll" CopyToOutputDirectory="PreserveNewest"/>
+    <EmbeddedResource Include="notice.js" LogicalName="notice.js"/>
+    <EmbeddedResource Include="dialogs.js" LogicalName="dialogs.js"/>
+    <EmbeddedResource Include="lobby_snapshot.js" LogicalName="lobby_snapshot.js"/>
+  </ItemGroup>
+</Project>

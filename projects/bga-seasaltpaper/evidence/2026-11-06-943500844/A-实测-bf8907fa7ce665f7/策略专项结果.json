@@ -1,0 +1,552 @@
+{
+  "candidate": "1.3.2-p0-bf8907fa7ce665f7",
+  "manifestSHA256": "C0486F8268849E3000800F45EEEE28C1339F6E8234560D4D96C43329ABC772B9",
+  "seatControlExeSHA256": "B323BF4E1EA16C4074C0F6CB75D39214CB3D68A13D8FEF55F188BCC1E41A59DB",
+  "appDllSHA256": "89384D728B963887FE3E45D6A8AD45D1883657240BA125FB1E8BA9C5B142E4A1",
+  "controlDllSHA256": "F6CD2B16D509A56F325765498B646FC9E2BD5020E5E17BFF29C88BF8B7E5B6D6",
+  "total": 4,
+  "passed": 4,
+  "cases": [
+    {
+      "caseId": "strategy/both",
+      "passed": true,
+      "worker": 34568,
+      "batch": "6f6bc64d33524b469025c7578278ef71",
+      "checks": {
+        "confirmedRenderedButtons": true,
+        "singleDomClick": true,
+        "exactWireRequests": true,
+        "exactAccepted": true,
+        "originalProcessCompleted": true
+      },
+      "buttons": [
+        {
+          "utc": "2026-11-06T06:57:26.852188+00:00",
+          "elapsedMs": 3734,
+          "event": "rendered-buttons",
+          "document": 1,
+          "move": 71,
+          "buttons": [
+            {
+              "id": "immediateEndRound_button",
+              "disabled": false
+            },
+            {
+              "id": "endRound_button",
+              "disabled": false
+            },
+            {
+              "id": "endTurn_button",
+              "disabled": false
+            }
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "utc": "2026-11-06T06:57:26.846630+00:00",
+          "elapsedMs": 3718,
+          "event": "wire-request",
+          "legal": true,
+          "enabled": [
+            "draw"
+          ],
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/0/takeCards",
+          "move": 70,
+          "phase": "takeCards",
+          "action": "draw"
+        },
+        {
+          "utc": "2026-11-06T06:57:27.743684+00:00",
+          "elapsedMs": 4625,
+          "event": "wire-request",
+          "legal": true,
+          "enabled": [
+            "immediateEndRound_button",
+            "endRound_button",
+            "endTurn_button"
+          ],
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/1/playCards",
+          "move": 71,
+          "phase": "playCards",
+          "action": "endRound_button"
+        }
+      ],
+      "buttonClickCount": 1,
+      "buttonClicks": [
+        {
+          "utc": "2026-11-06T06:57:27.743684+00:00",
+          "elapsedMs": 4625,
+          "event": "dom-button-click",
+          "table": "798",
+          "seat": "10",
+          "document": 1,
+          "move": 71,
+          "id": "endRound_button"
+        }
+      ],
+      "buttonRequestCount": 1,
+      "buttonAcceptedCount": 1,
+      "acceptedButtonActions": [
+        "endRound_button"
+      ],
+      "duplicateButtonRequest": false,
+      "accepted": [
+        {
+          "utc": "2026-11-06T06:57:26.846630+00:00",
+          "elapsedMs": 3718,
+          "event": "game-server-accept",
+          "ordinal": 1,
+          "remainingMs": 98844,
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/0/takeCards",
+          "move": 70,
+          "phase": "takeCards",
+          "action": "draw"
+        },
+        {
+          "utc": "2026-11-06T06:57:27.745201+00:00",
+          "elapsedMs": 4625,
+          "event": "game-server-accept",
+          "ordinal": 2,
+          "remainingMs": 97937,
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/1/playCards",
+          "move": 71,
+          "phase": "playCards",
+          "action": "endRound_button"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "双按钮策略/both/result.json",
+          "sha256": "08984AF4C317D778D26EED95394B0AD44B83D249E8D4ED7795FC3CBB13D17825"
+        },
+        {
+          "path": "双按钮策略/both/server.jsonl",
+          "sha256": "7332B2B062170FD475FA0BF908B7AEF95D8EAF0AD21C1B42F824C0ED0BF5311F"
+        },
+        {
+          "path": "策略-both.err",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "caseId": "strategy/disabled",
+      "passed": true,
+      "worker": 19168,
+      "batch": "618d297e5fa944409cadc451acffc7a4",
+      "checks": {
+        "confirmedRenderedButtons": true,
+        "singleDomClick": true,
+        "exactWireRequests": true,
+        "exactAccepted": true,
+        "originalProcessCompleted": true
+      },
+      "buttons": [
+        {
+          "utc": "2026-11-06T06:57:26.756002+00:00",
+          "elapsedMs": 3625,
+          "event": "rendered-buttons",
+          "document": 1,
+          "move": 71,
+          "buttons": [
+            {
+              "id": "immediateEndRound_button",
+              "disabled": false
+            },
+            {
+              "id": "endRound_button",
+              "disabled": true
+            },
+            {
+              "id": "endTurn_button",
+              "disabled": false
+            }
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "utc": "2026-11-06T06:57:26.750855+00:00",
+          "elapsedMs": 3610,
+          "event": "wire-request",
+          "legal": true,
+          "enabled": [
+            "draw"
+          ],
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/0/takeCards",
+          "move": 70,
+          "phase": "takeCards",
+          "action": "draw"
+        },
+        {
+          "utc": "2026-11-06T06:57:27.651955+00:00",
+          "elapsedMs": 4516,
+          "event": "wire-request",
+          "legal": true,
+          "enabled": [
+            "immediateEndRound_button",
+            "endTurn_button"
+          ],
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/1/playCards",
+          "move": 71,
+          "phase": "playCards",
+          "action": "immediateEndRound_button"
+        }
+      ],
+      "buttonClickCount": 1,
+      "buttonClicks": [
+        {
+          "utc": "2026-11-06T06:57:27.650948+00:00",
+          "elapsedMs": 4516,
+          "event": "dom-button-click",
+          "table": "798",
+          "seat": "10",
+          "document": 1,
+          "move": 71,
+          "id": "immediateEndRound_button"
+        }
+      ],
+      "buttonRequestCount": 1,
+      "buttonAcceptedCount": 1,
+      "acceptedButtonActions": [
+        "immediateEndRound_button"
+      ],
+      "duplicateButtonRequest": false,
+      "accepted": [
+        {
+          "utc": "2026-11-06T06:57:26.750855+00:00",
+          "elapsedMs": 3610,
+          "event": "game-server-accept",
+          "ordinal": 1,
+          "remainingMs": 98843,
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/0/takeCards",
+          "move": 70,
+          "phase": "takeCards",
+          "action": "draw"
+        },
+        {
+          "utc": "2026-11-06T06:57:27.652460+00:00",
+          "elapsedMs": 4516,
+          "event": "game-server-accept",
+          "ordinal": 2,
+          "remainingMs": 97937,
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/1/playCards",
+          "move": 71,
+          "phase": "playCards",
+          "action": "immediateEndRound_button"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "双按钮策略/disabled/result.json",
+          "sha256": "29F19CEB046F83117E9B28AB3A0827B6BED551921690998A4561A05E5E7F4947"
+        },
+        {
+          "path": "双按钮策略/disabled/server.jsonl",
+          "sha256": "0CCBF0592D5A73A7EF00F8830D002CF824A3335D2FCCCB720996E9F0AE80FE21"
+        },
+        {
+          "path": "策略-disabled.err",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "caseId": "strategy/absent",
+      "passed": true,
+      "worker": 35256,
+      "batch": "0d2c9f2a20fd44babe8fe04fdfec56e6",
+      "checks": {
+        "confirmedRenderedButtons": true,
+        "singleDomClick": true,
+        "exactWireRequests": true,
+        "exactAccepted": true,
+        "originalProcessCompleted": true
+      },
+      "buttons": [
+        {
+          "utc": "2026-11-06T06:57:32.926375+00:00",
+          "elapsedMs": 3609,
+          "event": "rendered-buttons",
+          "document": 1,
+          "move": 71,
+          "buttons": [
+            {
+              "id": "immediateEndRound_button",
+              "disabled": false
+            },
+            {
+              "id": "endTurn_button",
+              "disabled": false
+            }
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "utc": "2026-11-06T06:57:32.919592+00:00",
+          "elapsedMs": 3594,
+          "event": "wire-request",
+          "legal": true,
+          "enabled": [
+            "draw"
+          ],
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/0/takeCards",
+          "move": 70,
+          "phase": "takeCards",
+          "action": "draw"
+        },
+        {
+          "utc": "2026-11-06T06:57:33.820464+00:00",
+          "elapsedMs": 4500,
+          "event": "wire-request",
+          "legal": true,
+          "enabled": [
+            "immediateEndRound_button",
+            "endTurn_button"
+          ],
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/1/playCards",
+          "move": 71,
+          "phase": "playCards",
+          "action": "immediateEndRound_button"
+        }
+      ],
+      "buttonClickCount": 1,
+      "buttonClicks": [
+        {
+          "utc": "2026-11-06T06:57:33.818949+00:00",
+          "elapsedMs": 4500,
+          "event": "dom-button-click",
+          "table": "798",
+          "seat": "10",
+          "document": 1,
+          "move": 71,
+          "id": "immediateEndRound_button"
+        }
+      ],
+      "buttonRequestCount": 1,
+      "buttonAcceptedCount": 1,
+      "acceptedButtonActions": [
+        "immediateEndRound_button"
+      ],
+      "duplicateButtonRequest": false,
+      "accepted": [
+        {
+          "utc": "2026-11-06T06:57:32.919592+00:00",
+          "elapsedMs": 3594,
+          "event": "game-server-accept",
+          "ordinal": 1,
+          "remainingMs": 98875,
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/0/takeCards",
+          "move": 70,
+          "phase": "takeCards",
+          "action": "draw"
+        },
+        {
+          "utc": "2026-11-06T06:57:33.820464+00:00",
+          "elapsedMs": 4500,
+          "event": "game-server-accept",
+          "ordinal": 2,
+          "remainingMs": 97969,
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/1/playCards",
+          "move": 71,
+          "phase": "playCards",
+          "action": "immediateEndRound_button"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "双按钮策略/absent/result.json",
+          "sha256": "93D9AEAF30A3E51355820A480962B5A8619487B54E5D06B6E16DC3C915DE35D6"
+        },
+        {
+          "path": "双按钮策略/absent/server.jsonl",
+          "sha256": "2D9CC9FBC0D01D0DCE6CDE18CDCE22DF2F80A73D263031A26C7ACBB353CAAA29"
+        },
+        {
+          "path": "策略-absent.err",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "caseId": "strategy/only-last",
+      "passed": true,
+      "worker": 5956,
+      "batch": "827d561cef7a4d7f8c5d003b988785ac",
+      "checks": {
+        "confirmedRenderedButtons": true,
+        "singleDomClick": true,
+        "exactWireRequests": true,
+        "exactAccepted": true,
+        "originalProcessCompleted": true
+      },
+      "buttons": [
+        {
+          "utc": "2026-11-06T06:57:33.004810+00:00",
+          "elapsedMs": 3578,
+          "event": "rendered-buttons",
+          "document": 1,
+          "move": 71,
+          "buttons": [
+            {
+              "id": "endRound_button",
+              "disabled": false
+            }
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "utc": "2026-11-06T06:57:32.998621+00:00",
+          "elapsedMs": 3563,
+          "event": "wire-request",
+          "legal": true,
+          "enabled": [
+            "draw"
+          ],
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/0/takeCards",
+          "move": 70,
+          "phase": "takeCards",
+          "action": "draw"
+        },
+        {
+          "utc": "2026-11-06T06:57:33.898308+00:00",
+          "elapsedMs": 4469,
+          "event": "wire-request",
+          "legal": true,
+          "enabled": [
+            "endRound_button"
+          ],
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/1/playCards",
+          "move": 71,
+          "phase": "playCards",
+          "action": "endRound_button"
+        }
+      ],
+      "buttonClickCount": 1,
+      "buttonClicks": [
+        {
+          "utc": "2026-11-06T06:57:33.897106+00:00",
+          "elapsedMs": 4469,
+          "event": "dom-button-click",
+          "table": "798",
+          "seat": "10",
+          "document": 1,
+          "move": 71,
+          "id": "endRound_button"
+        }
+      ],
+      "buttonRequestCount": 1,
+      "buttonAcceptedCount": 1,
+      "acceptedButtonActions": [
+        "endRound_button"
+      ],
+      "duplicateButtonRequest": false,
+      "accepted": [
+        {
+          "utc": "2026-11-06T06:57:32.998621+00:00",
+          "elapsedMs": 3563,
+          "event": "game-server-accept",
+          "ordinal": 1,
+          "remainingMs": 98859,
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/0/takeCards",
+          "move": 70,
+          "phase": "takeCards",
+          "action": "draw"
+        },
+        {
+          "utc": "2026-11-06T06:57:33.898308+00:00",
+          "elapsedMs": 4469,
+          "event": "game-server-accept",
+          "ordinal": 2,
+          "remainingMs": 97953,
+          "table": "798",
+          "seat": "10",
+          "opponent": "20",
+          "document": 1,
+          "token": "1/1/playCards",
+          "move": 71,
+          "phase": "playCards",
+          "action": "endRound_button"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "双按钮策略/only-last/result.json",
+          "sha256": "0BEEAFAAE752F3BAF4646014A1262E85713D3057FCFF978D47B3C872B768C0C1"
+        },
+        {
+          "path": "双按钮策略/only-last/server.jsonl",
+          "sha256": "2B05D4E71620960EE3D62462F2A7BA4B0F1EE101C81195942C7878391B65C715"
+        },
+        {
+          "path": "策略-only-last.err",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    }
+  ],
+  "realGames": 0
+}

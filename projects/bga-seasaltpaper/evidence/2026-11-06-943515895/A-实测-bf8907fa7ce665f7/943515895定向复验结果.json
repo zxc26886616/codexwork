@@ -1,0 +1,132 @@
+{
+  "candidate": "1.3.2-p0-bf8907fa7ce665f7",
+  "manifestSHA256": "C0486F8268849E3000800F45EEEE28C1339F6E8234560D4D96C43329ABC772B9",
+  "seatControlExeSHA256": "B323BF4E1EA16C4074C0F6CB75D39214CB3D68A13D8FEF55F188BCC1E41A59DB",
+  "appDllSHA256": "89384D728B963887FE3E45D6A8AD45D1883657240BA125FB1E8BA9C5B142E4A1",
+  "controlDllSHA256": "F6CD2B16D509A56F325765498B646FC9E2BD5020E5E17BFF29C88BF8B7E5B6D6",
+  "total": 8,
+  "passed": 8,
+  "cases": [
+    {
+      "caseId": "943515895/resume/advanced",
+      "passed": true,
+      "code": 0,
+      "evidence": [
+        {
+          "path": "resume-advanced/result.json",
+          "sha256": "D09E4EEB023B334BCB93C6248C1F87B33949530CA1F5577ADE09AB5FB71E2CEB"
+        },
+        {
+          "path": "resume-advanced/server.jsonl",
+          "sha256": "BC312A1D59632971004AC956098547AE87707819B84E14ECEF3B3F57F3C18487"
+        }
+      ]
+    },
+    {
+      "caseId": "943515895/resume/same",
+      "passed": true,
+      "code": 0,
+      "evidence": [
+        {
+          "path": "resume-same/result.json",
+          "sha256": "55F385497759108D5E6566C95E663DF9D5121FC31E4852093A96BAE9851FA5D9"
+        },
+        {
+          "path": "resume-same/server.jsonl",
+          "sha256": "B2845A03FCDB7998CE218DD81DF861DF08A840E1DDF332BA44B2401D304839E5"
+        }
+      ]
+    },
+    {
+      "caseId": "943515895/resume/no-clock",
+      "passed": true,
+      "code": 0,
+      "evidence": [
+        {
+          "path": "resume-no-clock/result.json",
+          "sha256": "19B2845E3ABCF91C51D9795E8C49FA0C98E4C8F482D0D9484254F92587205613"
+        },
+        {
+          "path": "resume-no-clock/server.jsonl",
+          "sha256": "3CAF7AE80F26C9949229F9C7A5974100E7E85EF1AF5E27EE4A668E3EC4AA3787"
+        }
+      ]
+    },
+    {
+      "caseId": "943515895/resume/wrong-opponent",
+      "passed": true,
+      "code": 0,
+      "evidence": [
+        {
+          "path": "resume-wrong-opponent/result.json",
+          "sha256": "73E8B7E949159DB6DD748EF7F149FDFF4CECDE0E67631C0E86E9159FD62BC616"
+        },
+        {
+          "path": "resume-wrong-opponent/server.jsonl",
+          "sha256": "EBBB5A135A49845DE88D23A2A112D7121F3689A69B25988C47B2CAB7CC7FB362"
+        }
+      ]
+    },
+    {
+      "caseId": "943515895/resume/no-journal",
+      "passed": true,
+      "code": 0,
+      "evidence": [
+        {
+          "path": "resume-no-journal/result.json",
+          "sha256": "6028EBE04A4208CAE5E6C0CB81B2CB9DE31189EB89D563254410F7897AD12B1F"
+        },
+        {
+          "path": "resume-no-journal/server.jsonl",
+          "sha256": "6ED4626D2A359900D9948C1F302FBB53328BDD6A8EDC0A09AB60150ADA410CC6"
+        }
+      ]
+    },
+    {
+      "caseId": "943515895/resume/ended",
+      "passed": true,
+      "code": 0,
+      "evidence": [
+        {
+          "path": "resume-ended/result.json",
+          "sha256": "E8C521A240772AB8F3310E6960607EC135CCEE9911C74080B3C288BADCB42364"
+        },
+        {
+          "path": "resume-ended/server.jsonl",
+          "sha256": "4FAABEB673F74A4DB767E783E4D0E21ADBD935AF2176D728EC4184D949245106"
+        }
+      ]
+    },
+    {
+      "caseId": "943515895/frame/blank",
+      "passed": true,
+      "code": 0,
+      "evidence": [
+        {
+          "path": "定向复验/frame-blank/result.json",
+          "sha256": "72403678E25C1295BCB5568967ECE18485435CF4DC773C8D53D57E6584E11BC4"
+        },
+        {
+          "path": "定向复验/frame-blank/server.jsonl",
+          "sha256": "B5FEC92B1639D78D41FE9355B0FFCF6CC127C3CFAC02AB610D260B52D488E773"
+        }
+      ]
+    },
+    {
+      "caseId": "943515895/frame/missing-frame",
+      "passed": true,
+      "code": 0,
+      "evidence": [
+        {
+          "path": "定向复验/frame-missing-frame/result.json",
+          "sha256": "19607088F5C1800C9917BD6EABE805F7F65D477E8D1C943FFD93AA9C0D55F029"
+        },
+        {
+          "path": "定向复验/frame-missing-frame/server.jsonl",
+          "sha256": "74AD0A0535062210CB76B9C264695FAED2A65D120C9ECA7E1275615306D54836"
+        }
+      ]
+    }
+  ],
+  "realGames": 0
+}
